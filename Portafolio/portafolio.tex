@@ -1,0 +1,760 @@
+\documentclass[10pt, letterpaper]{article}
+
+%% Packages %%
+\usepackage[left=1.5cm,top=2cm,right=1.5cm,bottom=1.5cm]{geometry}
+\usepackage{graphicx}
+\usepackage[spanish]{babel}
+\usepackage[latin1]{inputenc}
+\usepackage{amsmath, amsfonts, amssymb, amsthm}
+\usepackage{array, xcolor}
+\usepackage{chngcntr}
+\usepackage{multicol}
+\usepackage{multirow}
+\usepackage{hyperref}
+\usepackage{booktabs}
+\usepackage{blindtext}
+\usepackage[font=footnotesize]{caption}
+
+%% Document format %%
+\linespread{1.0}
+\setlength{\parindent}{0pt}
+\parskip 1.5pt
+
+%% Comandos %%
+\definecolor{lightgray}{gray}{0.8}
+\newcommand{\newsection}[1]{\setcounter{section}{#1} \setcounter{figure}{0} \setcounter{table}{0} \setcounter{equation}{0}}
+\newcommand{\VRule}{\color{lightgray}\vrule width 0.5pt}
+\newcommand{\itembf}[1]{\item \textbf{#1}}
+\newcommand{\fuente}[1]{\footnote{Fuente: {#1}}}
+
+%% Otros %%
+\counterwithin{equation}{section}
+\counterwithin{figure}{section}
+\counterwithin{table}{section}
+
+\title{?}
+\author{?}
+\date{} 
+
+\begin{document}
+
+\begin{minipage}[c][2cm][t]{0.2\textwidth}
+\begin{center}
+	\includegraphics[scale=0.25]{logo.jpg}
+\end{center}
+\end{minipage}
+\begin{minipage}[c][1.5cm][t]{0.7\textwidth} \bigskip
+{Pontificia Universidad Católica de Chile}\\
+{Facultad de Artes}\\
+{Instituto de Música}\\
+{MUC863 Psicoacústica}
+\end{minipage}
+\vspace{1.5cm}
+\begin{center}
+{\LARGE \textbf{Portafolio personal}}\\
+\rule{\linewidth}{0.2mm} \\
+{\large {Nicolás A. Peña Escarpentier}}\\
+\end{center}
+\vspace{0.3cm}
+
+%\begin{multicols}{2}
+\textbf{Nota:} La materia del curso y anexos están en letra normal, mientras que las reflexiones se escribieron en letra cursiva.
+
+\section{Sonido} \newsection{1}
+El sonido lo podemos descomponer en dos partes: una física y otra perceptual. Para aclarar esta dicotomía, podemos usar una analogía con la visión. La parte física se refiere a la luz, la vibración de las partículas, mientras que la parte perceptual se refiere a lo que interpretamos de todas las señales que recibimos. Es lo mismo en el sonido, las ondas de presión son la componente física, pueden ser grabadas, procesadas o analizadas; mientras que la interpretación que le damos, el como suena en nuestra cabeza, es la componente perceptual. En esta clase nos enfocamos a la parte del fenómeno físico.\\
+
+Físicamente, el sonido es una onda mecánica, por lo que necesita un medio que se perturbe para poder transmitirse. Al ser una onda mecánica, el sonido puede rebotar, ser absorbido, cambiar de medio, entre otras cosas. Como se dijo anteriormente, estas ondas se pueden almacenar, reproducir, modificar, desviar, etc. Si consideramos una fuente de sonido puntual, podemos decir que el sonido se propaga de forma esférica a cierta velocidad, la cual depende del medio de propagación. Podemos ver distintos ejemplos de la velocidad de propagación del sonido en distintos medios en la tabla \ref{C01_Velocidades} \footnote{Fuente: Wikipedia.org}. \\
+\
+\begin{table*}[ht]
+	\begin{center} \begin{tabular}{c c}
+	\toprule
+	Medio & Velocidad de propagación \\
+	\midrule
+	Aire (20°C) & $343 \frac{m}{s}$ \\
+	Agua (25°C) & $1593 \frac{m}{s}$ \\
+	Madera & $3700 \frac{m}{s}$ \\ 
+	Hormigón & $4000 \frac{m}{s}$ \\
+	Acero & $6100 \frac{m}{s}$ \\
+	\bottomrule
+	\end{tabular} \end{center}
+	\caption{Velocidades de propagación del aire en distintos medios.}
+	\label{C01_Velocidades}
+\end{table*}
+
+\textit{Se dijo que en clases que la base de los instrumentos musicales tradicionales es la resonancia. En general, los instrumentos tradicionales, no eléctricos, poseen un sistema de caja, usado para amplificar la intensidad de las ondas de sonido, puesto que la sola vibración de la cuerda no es suficiente para hacer que el sonido sea escuchado a una gran distancia. Además, se aprovecharon de la capacidad acustica de la madera y de las propiedades de las ondas mecánicas. La madera puede transportar el sonido a la caja, en donde las ondas de sonido rebotan y se amplifican.}\\
+
+¿Qué necesitamos para producir un sonido?
+\begin{itemize}
+\item Energía cinética (fuente de energía). Necesitamos energía para poder generar una onda, lo cual no es lo mismo que la oscilación. Podemos definir vibración como un movimiento el cual vuelve al equilibrio. Y desde este punto definimos una oscilación como un ciclo del movimiento en torno al punto de equilibrio.
+\item Fuente en vibración. Si no hay nada que vibre, no se produce la diferencia en la presión, la cual provoca el sonido.
+\item Medio de propagación. El sonido no se puede propagar en el vacío, puesto que es una onda mecánica.
+\item Receptor. Este no es necesario desde el punto de vista físico, aunque es necesario para medir el sonido.\\ \textit{Desde este punto de vista, la pregunta ``Si un árbol cae en medio de un bosque y no hay nadie que lo escuche, hace ruido?'' es bastante paradójica y nada facil de resolver, aún desde un punto de vista físico. Se puede decir que se van a producir ondas sonoras debido al movimiento de partículas y que se generan cambios de presiones, pero es necesario un receptor para poder medirlas y tener certeza de que existieron. Pero la pregunta niega la posibilidad de tener el receptor, por lo que esa respuesta no la satisface a cabalidad.}
+\end{itemize}
+
+Podemos ver como las vibraciones producen sonido con ciertas características es el diapasón. Este es un instrumento fabricado de tal manera que vibra a una frecuencia determinada, lo cual lo interpretamos como cierta nota. Al golpear el diapasón, sus extremos vibran, generando una variación en el campo de  presiones en las moléculas presentes en el aire. Como se vio en los videos en clases, las moléculas no experimentan moviemiento, sino que un cambio de presiones unidireccional. Éstas no viajan junto con la onda, sino que oscilan en torno a su estado de equilibrio (cuando no se produce sonido). Es posible distinguir dos zonas en este campo de presiones: una zona de compresión y otra zona de tracción. Así se conforma la onda longitudinal que es el sonido.
+
+\begin{figure*}[ht]
+	\centering
+	\includegraphics[scale=0.25]{C01_diapason}
+	\label{C01_Diapason}
+	\caption{Diapasón}
+\end{figure*}
+
+\subsection*{Propiedades de los sistemas vibratorios}
+\begin{itemize}
+\itembf{Ciclo}: Unidad de repetición.
+\itembf{Período}: Tiempo que toma un ciclo en completarse. Su unidad de medida en el SI es el segundo.
+\itembf{Frecuencia}: Número de ciclos por unidad de tiempo $(= 1/\mbox{período})$. Su unidad de medida en el SI es el Herz (Hz).
+\itembf{Fase}: Parte del ciclo que una onda ha avanzado en relación a un punto de referencia arbitrario.\\
+Es imposible distinguir la fase de un sonido puro, pero para efectos perceptuales y cuando se van ``agregando'' sonidos importa mucho.\\
+Para sonidos de distinta frecuencia, no tiene sentido comparar fases.
+\end{itemize}
+
+La superposición de las notas depende de la diferencia de frecuencias. Esto depende, eso sí, de que frecuencias son! Si son muy parecidas, se van acoplando y desacoplando, pero si son muy diferentes, se escuchan dos notas por separado. 
+
+\subsection*{Ondas sonoras}
+\begin{itemize}
+\itembf{Onda simple o sinusoidal}: Ondas simples, completamente definidas. Representa la solución matemática de un movimiento armónico simple. Necesita de tres parámetros para quedar definida: amplitud (A), frecuencia ($\omega$) y fase($\phi$). Se puede escribir como: $$A \sin (\omega t+\phi)$$
+\itembf{Ondas complejas}: Son los sonidos ``reales''. No existe instrimento alguno que haga sinusoides puros. Algunos tipos de ondas complejas son:
+\begin{itemize}
+\item Onda diente de sierra
+\item Onda cuadrada
+\item Sonido vocal
+\end{itemize}
+Se puede hablar de una frecuencia \emph{fundamental}, pero no de una frecuencia única, puesto que estas ondas son la unión de una cantidad enorme de otras.
+\end{itemize}
+
+\subsubsection*{Análisis de Fourier}
+Método desarrollado por el matemático francés Jean-Baptiste Joseph Fourier. Cuando inventó este método, le interesaba ver 1 problema termodinámico en el cual tenía que trabajar con ondas, pero no podia analizarlas. Debido a esto, demostró que cualquier onda se puede analizar como la suma de ondas sinusoidales (armónicas) con A, $\omega$ y $\phi$ particulares. De este modo, podemos analizar los sonidos como la suma de sonidos más básicos (\textit{lo cual es claramente mucho más simple!}) Todo tipo de ondas puede ser descompuesto como sinusoides, incluso ondas cuadradas.\\
+
+Es importante mencionar que el cerebro también es capaz de descomponer las ondas segun sus frecuencias, lo cual se verá más adelante en el curso.
+
+\textit{Este tipo de análisis es muy importante. Los cuerpos al vibrar lo hacen en varios modos de vibración y sin saber exactamente las propiedades del cuerpo, no es posible saber en que frecuencias vibra y con qué intensidad. }
+
+\subsubsection*{Representación visual del sonido}
+\begin{itemize}
+\itembf{Amplitud v/s tiempo:} Es muy difícil saber de que se trata el sonido. No se puede rrecuperar la frecuencia.
+\itembf{Amplitud v/s frecuencia:} No tenemos información de la duración de cada frecuencia, ni cuando suena cada una.
+\itembf{Frecuencia v/s tiempo:} No podemos representar amplitud, es decir cuán fuerte suena cada sonido.
+\itembf{Espectrograma:} Los espectrogramas son una buena solución, puesto que pueden mostrar la frecuencia v/s tiempo, indicando la amplitud (intensidad) con una escala de colores.
+\end{itemize}
+
+
+\newpage 
+\section{Sistema auditivo} \newsection{2}
+El sistema auditivo es el conjunto de órganos responsables de dotarnos del sentido del oído. Ya vimos anteriormente la composición física del sonido. El primer paso es el saber físicamente como llegan las ondas a nuestra cabeza para poder procesarlas, para lo cual estudiaremos este sistema. El sistema auditivo está compuesto por tres partes: oído externo, medio e interno, las cuales detallaremos a continuación y se pueden apreciar en la figura \ref{C02_sist} \footnote{Fuente: Clases}.\\
+
+\begin{figure}[ht]
+\centering
+	\includegraphics[scale=0.8]{C02_sistema.png}
+	\label{C02_sist}
+	\caption{Corte transversal del sistema auditivo humano, mostrando cada una de sus partes}
+\end{figure}
+
+\subsection*{Oído externo}
+El oído externo es el encargado de captar las ondas sonoras y transportarlas al oído medio. Está compuesto por la pinna (oreja), el canal auditivo y el tímpano. La oreja, pinna o pabellón auricular se encarga de captar las vibraciones externas y llevarlas hacia el interior del oído. Además, aprovecha de amplificar ciertas frecuencias y atenuar otras, con el fin de enfatizar las frecuencias que más nos interesan. Sin el aporte de la pinna, sería mucho más difícil el proceso auditivo, puesto que sería bastante complicado que las ondas sonoras entraran al canad auditivo. Por otra parte, la pinna es esencial para la localización de los sonidos. El canal auditivo es una cavidad de aproximadamente 2.5 cm de largo, la cual conduce las vibraciones recibidas desde la pinna hacia el tímpano. Este canal también amplifica cierto contenido de frecuencias, entre 1000 Hz y 4000 Hz, siendo el máximo alrededor de los 3000 Hz. Finalmente, el tímpano es una membrana elástica de aproximadamente 9 mm de diámetro. Éste se encarga de transmitir las vibraciones recibidas desde el canal auditivo hacia el oído medio. El tímpano también tiene ciertas frecuencias predilectas, las cuales se ven amplificadas. Por otra parte, el timpano aprovecha de sellar el conducto auditivo, aislando al oído medio del exterior. La respuesta final, en términos de frecuencia, del conjunto del oído externo se puede ver en la figura \ref{C02_extFrec} \fuente{Clases}. \textit{El hecho de que ciertas frecuencias se vean amplificadas es lógico debido al concepto de modos de vibración de medios elásticos. Aún así, es interesante ver como el cuerpo ha evolucioneda para que se amplifique el contenido de frecuencias que más nos interesa.} 
+
+\begin{figure}[ht]
+\centering
+	\includegraphics[scale=0.7]{C02_frecExterno.png}
+	\label{C02_extFrec}
+	\caption{Respuesta de frecuencias del oído externo}
+\end{figure}
+
+\subsection*{Oído medio}
+El oído medio es un sistema mecánico compuesto por tres huecesillos que actúa como un transductor de vibración. Esto se debe a que el oído interno está lleno de líquidos, por lo que necesitamos una forma de transmitir estas vibraciones sin perder una gran cantidad de energía de dichas ondas. Los huesecillos que forman este sistema son el martillo, el yunque y el estribo. Además, tenemos un músculo llamado strapedius, el cual protege contra sonidos muy intensos, amortiguando la vibración de dichos huesos. Lamentablemente, dicho músculo necesita cierto tiempo de reacción, no es de reacción inmediata, por lo cual no alcanza a responder contra sonidos súbitos como un disparo.\\
+
+El funcionamiento de este sistema mecánico es el siguiente: El martillo está conectado a la membrana timpánica en su base. Al vibrar la membrana, también lo hace el martillo que está conectado en su extremo opuesto al yunque. Al moverse el martillo también lo hace el yunque al unísono. Este último está conectado en su extremo opuesto al estribo, traspasándole las vibraciones. A su vez, el estribo se apoya en la ventana oval, la entrada del oído interno, transmitiendo las señales sonoras a esta última parte. Podemos ver la conección de los tres huesecillos en la figura \ref{C02_huesos} \fuente{\url{http://usuarios.discapnet.es/ojo_oido/esquemas_cuerpo_humano/estrobo_martillo_yunque.jpg}}.
+
+\begin{figure}[ht]
+\centering
+	\includegraphics[scale=0.25]{C02_oidoMedio.jpg}
+	\label{C02_huesos}
+	\caption{Huesecillos del oído medio}
+\end{figure}
+
+\subsection*{Oído interno}
+El oído interno es la última parte del sistema auditivo, en donde se transforman las vibraciones en señales nerviosas que se dirigen al cerebro. Es una cámara hueca ubicada dentro del hueso temporal, llena de líquido incompresible y compuesto por las ventanas oval y circular, los canales semicirculares y la cóclea junto a la membrana basilar. No nos enfocaremos mucho en los canales semicirculares, puesto que son los encargados de la parte espacial y del equilibrio. Nos enfocaremos en las partes que tienen que ver con la audición: la cóclea y la membrana basilar. Podemos ver el oído interno en la figura \ref{C02_OidoInterno} \fuente{Clases}. \\
+
+\begin{figure}[ht]
+\centering
+	\includegraphics[scale=0.7]{C02_oidoInterno.png}
+	\caption{Vista y detalle del oído interno}
+	\label{C02_OidoInterno}
+\end{figure}
+
+La cóclea es un conducto de tres tubos enrollados, con forma de caracol enrollado en si mismo 3.5 veces y que tiene un diámetro de 2 mm y un largo de 35 mm. Los tubos de la cóclea se llaman ``scala tympani'', ``scala vestibula'' y ``scala media'', las cuales se unen por el helicotrema y se separan por la membrana de Reissner y la membrana basilar. Esta membrana comienza en la base, conectada a la ventana oval y termina en el apex en el helicotrema. Esta membrana varía tanto su densidad como su rigidez en su largo, lo que hace variar su frecuencia de resonancia en cada punto. En la base es más rigida, por lo que su frecuencia fundamental es mayor (20 kHz), mientras que a medida que se avanza hacia el apex, se vuelve menos rígida, disminuyendo su frecuencia fundamental (20 Hz). Esta distribución de frecuencias se puede ver en la figura \ref{C02_membrana} \fuente{Clases}.\\
+
+\begin{figure}[ht]
+\centering
+	\includegraphics[scale=0.5]{C02_membrana.png}
+	\caption{Distribución de frecuencias en la membrana basilar}
+	\label{C02_membrana}
+\end{figure}
+
+El funcionamiento del oído interno es el siguiente. Las vibraciones recorren la cóclea desde la ventana oval. A medida que avanzan estas vibraciones van rebotando contra la membrana basilar hasta que encuentran el lugar correspondiente a su frecuencia predominante. En dicho lugar, las vibraciones son capaces de traspasar la membrana basilar y volver por la cóclea hasta la ventana circular. Al atravesar la membrana basilar, se estimula el órgano de Corti, causando vibración en algunas de sus células ciliares. Finalmente, estas vibraciones son traducidas en impulsos eléctricos los cuales se transmiten por el nervio auditivo al cerebro para ser procesados.
+
+\subsection*{Daños al sistema auditivo y pérdida de audición}
+Hay dos tipos de pérdidas auditivas, las conductivas y las neurosensoriales. Las pérdidas conductivas se dan antes de la ventana oval, son daños al sistema físico o mecánico de transmisión de vibraciones. Estas pérdidas se pueden reemplazar por distintos aparatos que simulan el órgano dañado. Incluso se puede reparar la funcionalidad de los huesecillos del oído medio, mediante el implante de un dispositivo vibratorio que ayuda a mover dichos huesos. Por otra parte, las pérdidas neurosensoriales ocurren en la cóclea o en la membrana basilar y se pueden arreglar mediante un transplante de cóclea o con un implante de electrodos que mandan señales directamente al mervio auditivo.
+
+
+\newpage
+\section{Metodos psicofísicos} \newsection{3}
+En el estudio de la percepción de los sonidos hay varios campos de interés. Uno de estos es el poder cuantificar y medir nuestra percepción. Entonces, ¿cómo hacer un experimento que haga sentido y nos permita medir nuestra sensibilidad? Y luego, ¿cómo interpretamos tales resultados? Por otra parte, no podemos olvidarnos que el cambio de intensidad y los cambios de frecuencia afectan de forma distinta la percepción y se afectan entre si también (\textit{como ya se vió en temas anteriores y en la tarea encargada esta clase}). Por último, debemos ser capaces de incluir el sesgo de la persona en cuestión, puesto que no todos tenemos criterios iguales. Así, se han desarrollado varios experimentos con el fin de medir nuestra percepción, corrigiendo los resultados de forma estadística o anulando el error en el mismo experimento. 
+
+\subsubsection*{Psicologia matemática/experimental/estadística}
+También conocido como psicología experimental o estadística o psicofísica. Es una rama de la psicología que se enfoca en medir la percepción. Su precursor fue Gustav Fechner, filósofo y psicólogo alemán del siglo XIX. Él señaló que el incremento de intensidad mental frente a un incremento de intensidad físico puede ser medido, logrando establecer la siguiente ecuación que refleja dicha relación: $ \displaystyle S = K\, \log(I) $. En donde $S$ es la intensidad de la percepcion, $I$ es la intensidad física del estímulo y $K$ es una constante que depende del tipo de estímulo.\\
+
+Se define el \textbf{Umbral} (threshold) como la intensidad mínima de un estímulo para poder inducir una reacción. Se definen dos tipos de umbrales, según lo que se quiere medir:
+\begin{itemize} 
+\itembf{Umbral absoluto:} Se define como la menor intensidad a la cual un estímulo puede ser detectado.
+\itembf{Umbral de discriminación:} Se define como la diferencia mínima en intensidad física, como para percibir un cambio a nivel perceptual.
+\end{itemize}
+
+\textbf{Métodos clásicos}\\
+Dentro de los métodos clásicos de detección de señales tenemos:
+\begin{itemize}
+\itembf{Método de límite:} Consiste en determinar la intensidad a la cual ya no se puede detectar el estímulo. Con tal fin, el observador va cambiando la intensidad y preguntándole al sujeto si es capaz de detectar el estímulo o no.
+\itembf{Método de ajustes:} Experimento similar al anterior, con la diferencia que es el mismo sujeto quien maneja el cambio de intensidad, ajustando el nivel de mínima audición.
+\itembf{Método de estímulo constante:} Se presentan estímulos a intensidades aleatorias y se mide el porcentaje de respuestas positivas del sujeto.
+\end{itemize}
+Todos estos métodos se basan en análisis estadísticos, por lo que se genera un promedio para la población de ciertos lugares. Pero la verdad es que el umbral puede cambiar o el criterio de las personas afecta de gran forma este tipo de experimentos. Por ejemplo, después de un concierto somos menos sensibles a intensidades bajas, o ciertas personas son más propensas a decir que sí a que no. Debido a esto, las mediciones quedan afectadas por una gran cantidad de ruido que necesita ser eliminado para tener la percepción ``pura'' de las personas.\\
+
+\textbf{Teoría de detección de señales}\\
+La detección de señales está controlada por dos procesos internos básicos:
+\begin{itemize}
+\item Una \textbf{impresión sensorial} que en promedio es dependiente de la intensidad de la señal. 
+\item Una \textbf{respuesta interna}, la cual depende de nuestro proceso subjetivo interno. Este proceso es dependiente de cada persona.
+\end{itemize}
+
+Además, se trabaja sobre el supuesto de que hay ruido. Este ruido es una perturbación aleatoria que puede ser confundida con la señal a medir. Es fundamental considerar el ruido a la hora de realizar las mediciones, ya que debido a este podemos tener distintos tipos de resultados. Se realizan cuatro tipos de mediciones distintas, de acuerdo a las combinaciones entre las respuestas y si se emitió señal o no, las que se pueden observar en la tabla \ref{C03-mediciones} . En general, se busca maximizar los ``Hit'' y  ``Correct rejections'' para ver la percepción real del humano. Para correrir el registro, se ve la respuesta interna, comparando la curva de respuesta entre el ruido (N) y ruido + señal (N+S), como se ve en la figura \ref{C03_graf1}.\\
+
+\begin{figure*}[ht]
+	\centering
+	\includegraphics[scale=0.55]{C03_graph01.png}
+	\label{C03_graf1}
+	\caption{Las curvas no son arbitrarias, representan la percepción de la persona. Lo que puede cambiar es el criterio. Este criterio es mediante el cual escogemos una respuesta positiva o negativa cuando tenemos tanto ruido como ruido+señal.}
+\end{figure*}
+
+\begin{table*}[ht]
+\renewcommand{\arraystretch}{1.1}
+\centering
+\begin{tabular}{r c *{2}{>{\centering\arraybackslash}m{3cm}}}
+& &\multicolumn{2}{c}{Señal emitida}\\
+& & Sí & No\\
+\cline{3-4}
+\multirow{2}{*}{Respuesta}
+ & \multicolumn{1}{c|}{Sí} & Hit & False alarm \\
+ & \multicolumn{1}{c|}{No} & Miss & Correct rejection \\
+\end{tabular}
+\label{C03-mediciones}
+\caption{Resultados de mediciones experimentales}
+\end{table*}
+
+Es esencial lograr independizar el criterio, para adquirir mediciones correctas, puesto que este está condicionado por el ambiente. Ahora, como logramos eliminar el sesgo en las preguntas? Este sesgo es especialmente influyente cerca del umbral, donde los niveles de ruido y ruido+señal son muy parecidos. Es más, incluso un observador sin sesgo podría dar una respuesta positiva aun cuando no hubiese ruido, sólo debido al ruido existente.\\
+
+Se define el sesgo como la tasa de acierto (``hit'') v/s falsas alarmas. Así, tomando en consideración el sesgo de la persona, podemos medir la sensitividad ($d'$). La sensitividad mide la distancia (en desviaciones estandar) de las curvas N y N+S, como se muestra en la figura \ref{C03_graf2}. Cabe mencionar que ambas curvas son curvas normales de igual varianza. Además, con la misma sensitividad igual puede cambiar el criterio de la persona. De la misma forma, puede cambiar la sensitividad sin cambiar el criterio utilizado. Por ejemplo: el cambio antes y después de un concierto de rock no tiene que ver con el criterio. \\
+
+\begin{figure*}[ht]
+	\centering
+	\includegraphics[scale=0.55]{C03_graph02.png}
+	\label{C03_graf2}
+	\caption{Sensitividad auditiva no cambia, pero el criterio puede cambiar. Con un criterio liberal, decimos sí la mayoría de las veces, en cambio con un criterio conservador, sucede lo contrario.}
+\end{figure*}
+
+Con los resultados del experimento anterior se puede graficar en una \textbf{curva ROC} para ver el desempeño obtenido. Las curvas ROC (Receiver Operating Characteristic o Característica Operativa del Receptor) se obtienen de graficar el porcentaje de aciertos v/s porcentaje de falsas alarmas como se puede apreciar en la figura \ref{C03_ROC}. La recta central ($d'=0$) representa a alguien que no logra distinguir ruido de estímulo. La curva obtenida representa la sensitividad de la persona, mientras que los puntos de la curva son los posibles cambios de criterio para el mismo $d'$. \\
+
+\begin{figure*}[ht]
+	\centering
+	\includegraphics[scale=0.65]{C03_ROC.png}
+	\label{C03_ROC}
+	\caption{Curva de ROC}
+\end{figure*}
+
+Otro experimento que se puede realizar es el de \textbf{opción forzada de dos alternativas}. Este consiste en que se le presentan al receptor dos sonidos, un ruido y un ruido + señal y se le hace escoger cuál de los dos contiene la señal. De esta manera, el sesgo se le aplica a ambas elecciones y se cancelan.\\
+\textit{Esto me recuerda a algunos métodos en eléctrica, en donde ambos canales de una señal se pasa por el mismo ruido, con el motivo que se cancelen.}
+
+\newpage
+\section{Resolución de frecuencia} \newsection{4}
+El concepto de resolución tiene relación con la calidad de algo. Si se habla de resolución de una imagen digital, se refiere a la densidad de pixeles por área, es decir, frecuencia espacial. Así podemos decir que resolución se puede referir a la precisión a la cual un estímulo se puede distinguir de otro con el que son similares en alguna dimensión. Por lo tanto, resolución de frecuencias es la habilidad de separar una componente de un sonido de una masa compleja. \\
+
+Claramente, el humano tiene un límite de percepción de frecuencia y tiempo. Además, como ya se vio anteriormente, nuestra percepción de intensidad depende de la frecuencia de la señal. Por otra parte, nuestro sistema auditivo ecualiza los sonidos para poder compensar otros, es decir, le damos más importancia a ciertas frecuencias.\\
+
+Para poder graficar esto se realiza un \textbf{audiograma.} Este mide la pérdida auditiva respecto a un estándar. Cada persona escucha distinto, lo que se traduce en un audiograma diferente para cada persona. El audiograma posee variadas micro-variaciones, lo que se puede apreciar si se realiza uno con una gran resolución, lo cual implica que el sistema auditivo también posee una gran resolución.\\
+
+La resolución de frecuencias de nuestro sistema auditivo nos permite realizar varias tareas, como detectar un tono en un ruido (detectar una intensidad de una frecuencia predominante) o detectar un tono entre otros (algo complejo en otra cosa más compleja). En clases realizamos un experimento, el cual consistió en una señal compuesta de armónicos de 200 Hz, a los cuales se le iban quitando ciertos tonos. Al quitar y volver a colocar dichos tonos, el sistema auditivo empieza a analizar lo que escucha. Es decir, somos capaces de analizar e incluso descomponer los sonidos en sus distintos tonos.\\
+
+\textit{Es interesante ver la diferencia en el escuchar la mezcla de tonos al comienzo y la suma de distintos tonos al final, siendo que es la misma señal auditiva. Todo depende de como entrenamos al oído o con que disposición estamos escuchando lo que se nos presenta. Además, esto nos demuestra la capacidad de entrenamiento del sistema auditivo. Me pregunto hasta que punto se podrá llegar entrenando para descomponer los tonos.}
+
+\subsection*{Enmascaramiento y bandas críticas}
+Queremos estudiar el umbral de deteccion de la señal frente a una cierta máscara que se le presenta. Una máscara es un ruido que se presenta detrás de una señal para intentar confundirlo (enmascararlo). Cabe recordar que estos umbrales son definidos de forma estadística y siempre de acuerdo a cierta referencia. Para esto realizamos un experimento, el cual consiste en que se presenta una señal de 2000 Hz más un ruido de cierto ancho centrado en la señal presentada. La intensidad de la señal se va disminuyendo de a 5 dB en 10 repeticiones. Debemos contar cuantas somos capaces de contar. Luego se modifica el ancho del ruido para ver las diferencias. Mis resultados se pueden ver en la tabla \ref{C04_exp1}. Con este experimento, nos podemos dar cuenta del efecto del \textbf{enmascaramiento}: bajo cierta intensidad el ruido se ``come'' a la señal, por lo que ya no se escucha. Además, entre un ruido ancho de banda y el de 250 Hz no debiera haber mucha diferencia, ambos estorban casi lo mismo. En cambio el ruido de 10 Hz apenas molesta (enmascara). Resultados experimentales muestran que a partir de los 400 Hz de ancho, el enmascaramiento es el mismo, a pesar de que se aumente el ancho del ruido. El concepto de \textbf{banda crítica} muestra el umbral de intensidad según el ancho de ruido para todas las frecuencias.\\
+
+\begin{table*}[ht]
+\centering
+\begin{tabular}{*{5}{c}}
+\toprule
+Solo & Broadband & 1000 Hz & 250 Hz & 10 Hz \\
+\midrule
+10 & 6 & 5 & 5 & 9 \\
+\bottomrule
+\end{tabular}
+\caption{Resultados experimentales}
+\label{C04_exp1}
+\end{table*}
+
+El filtro auditivo (o banda crítica) de una señal nos muestra la porción de frecuencias a disitntas intensidades que enmascara, como se puede ver en la figura \ref{C04_bandacritica}. Este fenómeno se puede explicar con el mecanismo de la membrana basilar. Los sonidos viajan por la cóclea y buscan el lugar ideal para atravesar la membrana basilar. Pero para llegar a dicho lugar deben viajar a lo largo de un tramo de la membrana, estimulando ciertas porciones de ésta a medida que avanzan. Al estimular estas secciones, la membrana se vuelve menos receptiva a otros estíulos, se satura. Esto explica que no sea capaz de detectar tonos de muy baja intensidad que están bajo el filtro auditivo. Además, logra explicar la asimetría de estas bandas críticas. Los tonos más graves deben viajar a un lugar más cercano al ápex, por lo que estimulan los tonos más agudos cercanos a éste. En cambio, los tonos agudos se quedan más cercanos a la base, por lo que su banda crítica no estimula a tonos más graves. Esto se puede ver claramente en la imagen \ref{C04_bandas} \footnote{\url{http://www.lpi.tel.uva.es/~nacho/docencia/ing_ond_1/trabajos_04_05/io1/public_html/MP3.htm}}. Esta asimetría del enmascaramiento se probó en un experimento. Se tienen dos tonos, de 1200 y 2000 Hz, los cuales se reproducen simultáneamente, mientras uno de los dos baja progresivamente con un paso de 5 dB. El tono de 2000 Hz se enmascara antes que el de 1200 Hz, debido a la asimetría de las bandas críticas. \\
+
+\begin{figure*}[h!]
+\centering
+\includegraphics[scale=0.85]{C04_bandacritica.png}
+\caption{Una señal produce una banda critica. En este caso, la señal 1 se ve enmascarada por la banda crítica. En cambio, la señal 2 no se enmascara al ser de mayor intensidad.}
+\label{C04_bandacritica}
+\end{figure*}
+
+\begin{figure*}[h!]
+\centering
+\includegraphics[scale=0.85]{C04_bandas.jpg}
+\caption{Bandas criticas para señales de distintas frecuencias. Cada señal afecta un área distinta, la cual enmascara a distintas intensidades.}
+\label{C04_bandas}
+\end{figure*}
+
+Por otra parte, al comportarse como un filtro, cualquier ruido que estorbe la banda crítica, no importa much el lugar en el que lo haga, el ``output'' del filtro será el mismo. Esto se puede ver en la figura \ref{C04_bandacritica2}. Así, si utilizamos un ruido de ancho de banda que tenga un ancho libre, centrado en la señal (llamado ruido mellado o notch), podemos ver hasta donde llega la banda crítica para cada frecuencia, al ajustar el ancho libre del notch. A medida que envejecemos se ensanchan las bandas críticas. Esto quiere decir que los ruidos nos afectan más, ya que interrumpen una mayor área de nuestras bandas críticas.\\
+
+\begin{figure*}[h!]
+\centering
+\includegraphics[scale=0.85]{C04_bandacritica2.png}
+\caption{Una señal produce una banda critica. En este caso, los ruidos 1 y 2 producen el mismo output del filtro, puesto que tienen la misma área sobre la banda crítica.}
+\label{C04_bandacritica2}
+\end{figure*}
+
+\textit{Se dijo en clases que el concepto de enmascaramiento y bandas críticas fue fundamental en el desarrollo del MP3. Esto se debe a que el MP3 busca comprimir los datos de tal forma de lograr un menor tamaño. Esto lo logra aprovechándose del enmascaramiento, puesto que elimina los datos de las frecuencias que se ven enmascaradas por el resto del sonido\footnote{\url{http://www.hpca.ual.es/~vruiz/docencia/laboratorio_arquitectura/proyectos/01-02/El\%20formato\%20MP3/fundamentos.html}}. Encuentro que esta es una aplicación impresionante de los procesos psicofísicos, puesto que utiliza de tal forma los procesos de percepción humana que logra producir un formato de codificación altamente eficiente, con una mínima pérdida de calidad. Quizás, con una mayor comprensión de otros procesos, seamos capaces de lograr en tiempo real efectos que parecieran ser muy complejos, al aprovecharnos de lo que realiza el cerebro naturalmente.} \\
+
+Otra forma de medir las bandas críticas es mediante las \textbf{curvas de afinamiento psicofísico}. Se tiene una señal y una máscara y se sube progresivamente la intensidad de la máscara, hasta que esta logre enmascarar por completo a la señal. Con esto se puede obtener un espectro completo para una persona en particular. Además, nos permite ver los daños en nuestro sistema auditivo. Tanto en estas curvas, como en las bandas críticas vistas anteriormente, el daño auditivo se puede apreciar de distintas formas. Sí la forma del filtro queda igual, pero se corre hacia arriba, disminuye su eficiencia. Es decir, se necesita una mayor intensidad para poder captar los sonidos. El cambio de forma también supone un cambio en la eficiencia. Si la banda se vuelve más ancha, entonces es más probable que la señal se vea estorbada por algún ruido. \\
+
+Dado que las bandas críticas y el enmascaramiento dependen de la intensidad del ruido y frecuencias que abarca, cabe preguntarse cómo varía el enmascaramiento con un aumento en la intensidad del ruido. Se ha demostrado experimentalmente que con un aumento en 10 dB de un ruido de banda ancha, se aumenta en 10 dB el enmascaramiento. Esto nos da una curva prácticamente recta, de pendiente 1. \textit{Esta relación lineal creo que se podría explicar gracias que la pérdida de eficiencia en la audición se ve reflejada en mover la banda crítica hacia arriba, sin cambiar su forma}.\\
+
+Otro fenómeno interesante es el \textbf{ajuste de la banda crítica} (off frquency listening), el cual se obtiene cuando el ruido sólo toma un lado de la banda crítica. En este caso, se produce la ilusión de que estamos escuchando una señal desplazada, que no corresponde a la señal verdadera, como se ve en la figura \ref{C04_ajuste}\footnote{ \url{http://en.wikipedia.org/wiki/File:Off_F_listening.svg}}. Pero si incorporamos otro ruido, esta vez por el otro lado, se pierde el efecto y escuchamos la señal a la frecuencia que corresponde. Esto se debe a una optimización de recursos por parte del cerebro para una mejor resolución e información de lo que nos rodea. El cerebro también juega un papel importante a la hora de estar esperando un sonido. Con la expectación, nos condicionamos a escuchar más fácilmente un sonido. Esto también se puede realizar artificialmente, reproduciendo un tono repetitivamente, para que el sujeto espere que suene nuevamente. Eso sí, con señales muy cortas no nos acostumbrmos, puesto que el cerebro no las alcanza a procesar de la misma forma.
+
+\begin{figure*}[ht]
+\centering
+\includegraphics[width=0.95\textwidth]{C04_ajustebanda.png}
+\caption{Una señal produce una banda critica. En este caso, los ruidos 1 y 2 producen el mismo output del filtro, puesto que tienen la misma área sobre la banda crítica.}
+\label{C04_ajuste}
+\end{figure*}
+
+\newpage
+\section{Percepción de alturas} \newsection{5}
+El sonido tiene una gran cantidad de características, tanto fisicas como perceptuales. Estas características pueden enlazarse entre sí. Es más, una característica física puede influenciar más de una característica perceptual, como se ve en la figura \ref{C05_diag}. Cabe mencionar que en nuestro idioma español, somos muy ambiguos para los términos perceptuales. Los términos utilizados son reciclados de otros contextos, muchas veces con más de una acepción para la misma palabra en el mismo contexto perceptual sonoro. En inglés los términos son bastante más claros. Para la ``altura'' del sonido se usa \textbf{pitch} y para el volumen o intensidad se usa \textbf{loudness}. La única excepción es el concepto de timbre, que no tiene un símil nativo anglosajón, ante lo cual adotaron dicha palabra.\\
+
+\begin{figure*}[ht]
+\centering
+\includegraphics[scale=0.4]{C05_diag.png}
+\caption{Relación entre las características físicas y perceptuales. La línea solida representa la relación primaria, y las líneas discontínuas representan efectos secundarios.}
+\label{C05_diag}
+\end{figure*}
+
+Para ver la percepción de alturas realizamos un experimento, el cual consiste en diez grupos de cuatro pares de tonos con pequeñas diferencias entre ellos. Hay que establecer si los tonos suben o bajan con respecto a una referencia (1000 Hz) a medida que la diferencia entre estos baja. En un comienzo, fue bastante fácil detectar los cambios, pero ya en el sexto grupo se complica en sobremanera. Este experimento nos sirvió para confirmar la \textbf{Ley de Weber}, la cual dicta que el umbral de detección para una diferencia de intensidad, es proporcional a la señal original, es decir: $$ \frac{\Delta I}{I} = K $$
+Matemáticamente, la función logarítmica cumple con dicha relación. Esto se puede explicar, en parte, debido a la distribucion de frecuencias en la membrana basilar, aunque dicha teoría no lo logra explicar a cabalidad. Cabe mencionar que dicha ley se cumple en todo aspecto perceptual, no solo en la intensidad de sonido. 
+
+\subsection*{Escala de pitch}
+¿En qué nos basamos para crear una escala de ``alturas''? ¿Cómo podemos decir que una nota es más alta que otra? Existen dos teorías principales: Phase-locking y teoría del lugar.
+\begin{enumerate}
+\itembf{Phase-locking.} También llamada teoría temporal. Hay dos posibles explicaciones de dicha teoría, que difieren muy poco. Básicamente, se trata de que según la frecuencia de las velocidades del envío de señales al cerebro desde la cóclea, éste es capaz de asignarle cierta sensación de altura. La otra explicación dice que es según el período de las señales. \textit{Ambas explicaciones son lo mismo, teniendo en cuenta que $periodo=\dfrac{1}{frecuencia}$}. El problema de esta teoría es que sobre los 5000 Hz no es posible tener sincronía entre la velocidad de las señales y la frecuencia del tono. Por lo tanto, esta teoría no logra explicar lo que sucede en este tramo.
+\itembf{Teoría del lugar.} Esta teoría se fija en el lugar desde donde se disparan las señales en la membrana basilar. Según esto, el cerebro es capaz de interpretar a que altura se encuentran los tonos	. Debido a las propiedades de la membrana basilar (como la rigidez) no funciona bien con frecuencias bajo los 5000 Hz.
+\end{enumerate}
+
+Es posible darse cuenta que ambas teorías presentan problemas a partir de cierta frecuencia. Es por esto que el científico alemán August Seebeck desarrolló un experimento para poder dilucidar ciertas dudas. La sirena de Seebeck, figura \ref{C05_sirena} \footnote{\url{http://digilander.libero.it/ricciardi/www.na.infn.it/Museum/schede/jpg/176b.jpg}}, deja pasar aire por alguno de sus agujeros, produciendo un tono a cierta frecuencia. Al abrir otros agujeros, podemos generar distintos tonos y según la ubicación en relación al primero producimos armónicos o tonos que no tienen relación con este. Así, a la hora de tener posibles resultados contradictorios con ambas teorías, es la teoría temporal la cual predomina. 
+
+
+\begin{figure*}[ht]
+\centering
+\includegraphics[scale=0.5]{C05_sirena.jpg}
+\caption{Sirena de Seebeck.}
+\label{C05_sirena}
+\end{figure*}
+
+\subsection*{Pitch virtual}
+El pitch virtual consiste en la apreciación de un cierto pitch, a pesar de que la onda fundamental no esté presente. Para este propósito realizamos un experimento, el cual consiste en una señal compuesta por 10 armónicos, a la cual se le van quitando progresivamente cada uno de estos componentes. Como resultado, se tiene que a pesar de que cambia el timbre del sonido, claramente el pitch no cambia, aún sin la fundamental. Otra particularidad es que los armónicos pueden no ser ``perfectos'', pero el efecto es el mismo. Es decir, sin ser múltiplos enteros de la fundamental, el cerebro es capaz de detectar un cierto patrón y generar un pitch virtual de todas formas. Esto lo vimos en el experimento siguiente, en el cual, a pesar de que los armónicos no eran perfectos en la segunda ocasión, daban la ilusión de un pitch de todas formas, como se ilustra en la tabla \ref{C05_exp}.
+
+\begin{table*}[ht]
+\centering
+\begin{tabular}{m{1.7cm} cc}
+\toprule
+& 1200 & 1250 $\approx$ 1260 \\
+Frecuencia escuchada & 1000 & 1050 $\approx$ 1050 \\
+&  800 &  850 $\approx$  840 \\
+\midrule
+Fundamental & 200 & ?? $\approx$ 210\\
+\bottomrule
+\end{tabular}
+\caption{En el segundo conjunto, el cerebro interpretó lo escuchado y lo adaptó a algo con más sentido, obteniendo un pitch virtual de todas formas.}
+\label{C05_exp}
+\end{table*}
+
+El pitch virtual también logra explicar que ciertos instrumentos, que no poseen tanta energía en la fundamental, de todas formas se logre percibir este pitch. Por ejemplo, el oboe tiene mucha más energia en el tercer armónico que en el primero, pero la nota se sigue escuchando con el pitch de la fundamental.\\
+
+Otros efectos de pitch virtual se dan debido a la \textbf{no linealidad auditiva}. El sistema auditivo es no-lineal, esto quiere decir que se producen distintas distorciones en el sistema auditivo, que no se pueden explicar con un análisis lineal y que son bastante difíciles de percibir. Un ejemplo de esto son los aural tones. Para ejemplificarlo, se realizó un experimento en clases. Se reproducen dos tonos de distinta frecuencia de 1000 hz ($f_1$) y de 1200 Hz ($f_2$), con lo cual se produce un aural tone de 800 Hz ($2f_1-f_2$), como se puede apreciar en la figura \ref{C05_aural1}. Este tono no es fácil de distinguir, por lo que se agrega un tono de 804 Hz, ilustrado en la figura \ref{C05_aural2}. Al estar tan cercano al tono aural, se produce un efecto de abatimiento, en el cual se siente como si la intensidad del sonido vibrara. Normalmente, este efecto se da entre tonos con una frecuencia parecida, lo que comprueba la existencia del aural tone, puesto que no se está tocando realmente ningún tono de 800 Hz. Este efecto también se puede lograr mediante el \textbf{cross-ear pitch}, es decir, poniendo un tono en cada canal auditivo. Esto sucede, ya que el efecto sucede a nivel del sistema auditivo perceptual, en el cerebro, no de forma física.
+
+\begin{figure*}[ht]
+\centering
+\includegraphics[scale=0.55]{C05_aural1.png}
+\caption{Los tonos de 1000 Hz y 1200 Hz, producen un tono aural de 800 Hz.}
+\label{C05_aural1}
+\end{figure*}
+
+\begin{figure*}[ht]
+\centering
+\includegraphics[scale=0.55]{C05_aural2.png}
+\caption{Se incluye un tono de 804 Hz, para causar un aural beat o abatimiento aural, el cual hace que la intensidad del sonido vibre debido a un acoplamiento con el tono aural.}
+\label{C05_aural2}
+\end{figure*}
+
+También se puede experimentar \textbf{enmascaramiento en tonos virtuales}. Al crear un pitch virtual con ciertos armónicos y comparándolo con el tono real, en ambos casos se siente el mismo pitch. Ahora, si un ruido enmascara la fundamental, pero no los armónicos, se sigue sintiendo el pitch gracias a estos. Así mismo, si se enmascaran los armónicos, pero no la fundamental, se siente esta última, pero el pitch virtual desaparece. \\
+\textit{Es muy interesante este efecto, puesto que nos muestra que somos capaces de seguir escuchando cierto tono, a pesar de que tengamos ruido que enmascare la fundamental. Esto mismo se podría utilizar en la codificación de música, tal como se vio anteriormente en la codificación MP3, para no perder información aun sin tener que codificarla. Sería interesante ver el efecto de hacer música solo con pitch virtuales.}\\
+
+Estos efectos del pitch se pueden complementar con otros resultados. Es interesante notar que el cerebro puede escuchar tanto \textbf{analítica} como \textbf{sintéticamente}. La forma analítica descompone el sonido y lo ve por partes, mientras que la forma sintética lo ve de una forma global. Esto se puede ver en un experimento en el cual se presentan dos sonidos complejos, compuestos por dos tonos puros. El primero está compuesto por tonos de 1000 y 800 Hz, mientras que el segundo por tonos de 1000 y 750 Hz. Al escuchar los tonos de forma analítica, percibimos que el segundo sonido es más grave que el primero, puesto que el tono de 1000 Hz se mantiene, y el otro tono baja en 50 Hz. En cambio, si escuchamos los tonos de forma sintética, percibimos que el segundo tono es más agudo, gracias al efecto del pitch virtual. Al verlo de forma global, el primer sonido genera un pitch virtual de 200 Hz, mientras que el segundo produce un pitch virtual de 250 Hz, claramente más agudo.
+
+\subsection*{Representación y circularidad}
+Del pitch podemos rescatar dos variables muy importantes: La altura (height) y el chroma. La altura es la que nos permite saber que nota es más aguda o más grave que otra. Pero al mismo tiempo, tenemos el efecto de que un do, suena como do sin importar en la escala en que se encuentre, tiene el mismo ``color''. A esta propiedad se le denomina chroma. Como el chroma se repite en cada escala de forma periódica, podríamos representarlo de forma circular. De esta forma, una buena representación del pitch es una helocoide, en la cual varía la altura a lo largo del eje, y el chroma de forma radial, tal como se muestra en la figura \ref{C05_pitch} \footnote{\url{http://nonsite.org/wp-content/uploads/2011/06/Kane_Figure-5.jpg}}.
+
+\begin{figure*}
+\centering
+\includegraphics[scale=0.7]{C05_pitch}
+\caption{Representación gráfica del pitch.}
+\label{C05_pitch}
+\end{figure*}
+
+Analizando esta representación es posible explicar fácilmente otro fenómeno denominado \textbf{circularidad}. Se tiene una serie de 10 tonos cíclicos, los cuales varían de forma ascendente o decreciente en un semitono y se pasan por un cierto filtro como el que se ve en la figura \ref{C05_shepard}\footnote{\url{http://asa.aip.org/gif/demo27a.gif}}, se obtiene la ilusión de que se está subiendo o bajando eternamente, sin lograr llegar a ninguna parte. Esto se debe a que cada 12 pasos, una nota llega a su siguiente octava, pero al mismo tiempo, hay tonos nuevos que ocuparon su lugar anterior. Por esta razón, la sensación de subir es real, pero tampoco será posible avanzar realmente. Usualmente, este efecto se compara con las escaleras infinitas del pintos M. C. Escher.
+
+\begin{figure*}[ht]
+\centering
+\includegraphics[scale=0.45]{C05_shepard.jpg}
+\caption{Filtro usado en una escala de Shepard.}
+\label{C05_shepard}
+\end{figure*}
+
+\subsection*{Comentarios finales y teoría moderna}
+De todos los efectos mencionados acerca del pitch, es importante volver a las teorías que intentan explicar el como se detecta el pitch. Cada una tiene evidencia en contra fundamental, como se puede ver en la tabla \ref{C05_teorias}. Es por esto que se ha desarrollado una \textbf{teoría moderna del pitch}. Esta se basa principalmente en un procesador del pitch, el cual funciona a nivel cerebral y en dos etapas. En primer lugar analiza las componentes individuales de la señal de audio para luego sacar una conclusión de acuerdo a los datos obtenidos. En este último punto se generan los pitch virtuales y efectos no lineales.\\
+\textit{A mi no me convence del todo esta teoría. Claramente refleja todo lo que se sabe acerca del pitch, pero dista de explicarlo. Se ve más como un intento de asignarle a una parte misteriosa del cerebro atribuciones y funciones que sabemos que suceden. Para mi falta descubrir donde se ubica dicho procesador y realizar experimentos que avalen dichas funciones. En caso contrario, es casi como ``cocinar'' un resultado, dado que sabemos la respuesta.}
+
+\begin{table*}[ht]
+\centering
+\begin{tabular}{c c}
+\toprule
+\multicolumn{2}{c}{\textbf{Evidencia en contra}} \\
+Teoría temporal & Teoría del lugar \\
+\midrule
+Región dominante & Escucha cerca del umbral\\
+Cross-ear pitch & Enmascaramiento\\
+ & Pitch shift\\
+\bottomrule
+\end{tabular}
+\caption{Evidencia en contra de cada teoría clásica.}
+\label{C05_teorias}
+\end{table*}
+
+\newpage
+\section{Intensidad perceptual} \newsection{6}
+
+Al igual que sucede con el concepto de ``altura'' del sonido, no poseemos un concepto claro para la intensidad del sonido, por lo cual se prefiere usar el nombre del concepto en inglés: Loudness. Lo primero que queremos saber es el como somos capaces de discriminar distintas intensidades. \\
+
+\subsection*{Nivel del Loudness}
+En primer lugar es útil definir una forma de medir la intensidad de sonido o loudness a nivel perceptual. Vamos a presentar dos medidas de loudness parecidas entre sí: fonos (phon) y sonos (sone).
+\begin{enumerate}
+\itembf{Fono (phon):} Un fono es el nivel de loudness de un sonido que equivale a un tono de 1000 Hz en dB SPL. La intensidad de los tonos se compara con uno de 1000 Hz para poder compensar el efecto que tiene la frecuencia en la intensidad percibida. \\
+Para medir en fonos, se debe ajustar la intensidad de un tono de 1000 Hz, hasta lograr la intensidad del tono reproducido. O también se puede ajustar el tono reproducido para lograr una igual loudness que un tono de 1000 Hz. De ambas formas podemos generar contornos de igual loudness, como se puede apreciar en la figura \ref{C06_equal}\footnote{\url{http://replaygain.hydrogenaudio.org/proposal/pics/equal_loudness.gif}}.
+
+\begin{figure*}[ht]
+\centering
+\includegraphics[scale=0.6]{C06_equal_loudness.png}
+\caption{Contornos de igual loudness. Cada curva posee la misma intensidad perceptual.}
+\label{C06_equal}
+\end{figure*}
+
+\itembf{Sono (sone):} Un sono se define como la loudness de un tono de 1000 Hz a 40 dB SPL. Esta medida se usa para tener un punto de referencia, el cual nos permite tener cierta propiedad en la medida, la cual se discutirá más adelante. 
+\end{enumerate}
+
+\subsection*{Efectos sobre el loudness}
+Uno de los efectos que se tiene en la percepción de loudness es la \textbf{sumación de loudness}. Es un efecto que se relaciona con las bandas críticas y muestra que con un ruido a igual intensidad física, aumentando el ancho de banda se percibe más fuerte. Esto sucede, ya que al aumentar el ancho de banda se estimulan más bandas críticas, lo que da la sensación de estar frente a un sonido más fuerte.\\
+
+Otro efecto que tiene que ver con la percepción de loudness es el \textbf{corrimiento de umbral}. Cuando nos vemos expuestos a sonidos particularmente intensos, nos volvemos más sensibles. Esto causa un corrimiento del umbral de intensidad. \textit{Este es uno de los fenómenos que más fácil se entiende, puesto que nos vemos expuestos a el todos los días. La diferencia entre el umbral cuando recién nos despertamos, luego de una noche calmada y al final del día, especialmente después de haber pasado por el metro, es abismante. Es muy valioso poder darle cierto significado a eventos tan cotidianos como este.}\\
+Así como se puede correr el umbral de intensidad, también podemos sufrir un \textbf{corrimiento de pitch}, según la loudness. Dependiendo de la intensidad con la que presentemos un tono, este lo podemos llegar a percibir hasta media octava más alto. \textit{Este es un efecto completamente perceptual, puesto que lógicamente, la frecuencia física de un tono no cambia, por más que cambie su amplitud.}
+
+\subsection*{Medición y escalamiento de Loudness}
+La medida de loudness en sonos nos da una forma de hacer fácilmente una escala de loudness. Experimentalmente se ha descubierto que para sonidos sobre 40 dB SPL, si se aumenta la intensidad en 10 dB, se dobla la loudness. De esta forma se llegó a la siguiente escala:
+\begin{equation*}
+L = k\,I^{0.3}
+\end{equation*}
+En donde $L$ es la intensidad en loudness (sonos), $I$ es la intensidad física y $k$ es una constante. Para ver que tan ajustado es esta expresión, se hizo un experimento en el curso, en el cual se presentan sonidos para ser comparados con una referencia y nosotros debemos determinar cuántas veces más fuerte es dicho sonido. El resultado fue una curva exponencial, la cual ratifica la expresión antes señalada.
+
+\newpage
+\section{Audición espacial} \newsection{7}
+Nuestro sistema auditivo nos permite hacer sentido espacial de los sonidos que escuchamos, ya sea de fuentes cercanas o muy lejanas. La localización lograda por nuestro sistema auditivo es en tres dimensiones. Nos permite tener una idea de la elevación, distancia y azimuth de la fuente, como se muestra en la figura \ref{C07_axis}\footnote{Fuente: Clases}.\\
+
+\begin{figure*}[ht]
+\centering
+\includegraphics[scale=0.45]{C07_axis}
+\caption{Espacialización del sonido.}
+\label{C07_axis}
+\end{figure*}
+
+Para estudiar la audición espacial requerimos de ciertas condiciones especiales. Necesitamos prevenir cualquier interrupción del sonido y aislarnos completamente de cualquier rebote posible, es decir, necesitamos una aislación acústica completa, un efecto de campo libre. Con este fin se utilizan salas especialmente acondicionadas para tal fin, llamadas salas anecoicas. Estos experimentos buscan entender que sucede con un tono que se mueve alrededor de una persona, como se distorcionan con nuestro cuerpo y las diferencias que se tienen en cada canal auditivo. Debido a esto, se hace un modelo de una cabeza, a la cual se le colocan micrófonos en el lugar de los tímpanos, cosa que se pueda grabar tal como si estuviésemos ahí. Esta técnica se llama \textbf{grabación binaural}.\\
+
+Gracias a estos experimentos se ha podido determinar y caracterizar el proceso de espacialización de los sonidos, junto a todos los problemas que posee. Según el lugar de donde provenga un sonido, a cada timpano le llega un sonido con un espectro distinto, es por esto que es de sumo interés saber claramente que sucede. Una de las cosas que se desea determinar es el mínimo ángulo audible, es decir, para qué diferencia angular sentimos una variación en la localización. También se han podido identificar varios planos auditivos, como se ve en la figura \ref{C07_planes} \footnote{Fuente: Clases}. Por otra parte, uno de los problemas de la localización es que a ciertas frecuencias este proceso empeora. Cometemos errores en las frecuencias para las que somos más sensibles.
+
+\begin{figure*}[ht]
+\centering
+\includegraphics[scale=0.45]{C07_planes.png}
+\caption{Planos de audición.}
+\label{C07_planes}
+\end{figure*}
+
+\subsection*{Teoría dual de la localización de sonidos}
+La teoria dual de la localización de sonidos dice que los sonidos se ven afectados de dos formas distintas y simultáneas al cambiar de lugar. Al moverse un sonido a la derecha, la señal que llega al oído izquierdo sufre una disminución de intensidad y un desfase lo cual nos da las claves necesarias para detectar el lugar del cual proviene. Esta diferencia temporal se llama \textbf{Interaural Time Difference (ITD)} y la diferencia de loudness se llama \textbf{Interaural Level Difference (ILD)}. Una representación de lo mismo se puede ver en la figura \ref{C07_loc}\footnote{Fuente: \url{http://www.cns.nyu.edu/~david/courses/perception/lecturenotes/localization/localization-slides/Slide16.jpg}} o más específicamente para la ITD en la figura \ref{C07_itd}\footnote{Fuente: \url{http://upload.wikimedia.org/wikipedia/commons/5/5c/ITD.jpg}}.
+
+\begin{figure*}[ht]
+\centering
+\includegraphics[scale=0.35]{C07_teoriaLoc.jpg}
+\caption{Representación de ITD e ILD.}
+\label{C07_loc}
+\end{figure*}
+
+\begin{figure*}[ht]
+\centering
+\includegraphics[scale=0.4]{C07_itd.jpg}
+\caption{Formas de onda en cada oído, mostrando la ITD.}
+\label{C07_itd}
+\end{figure*}
+
+Cabe mencionar que dependiendo de la frecuencia de los sonidos, cuánto cambia la intensidad y el desfase con el ángulo de precedencia. Las frecuencias bajas tienen una menor diferencia en intensidad (ILD) debido a su longitud de onda.\\
+
+Un modelo del sistema auditivo realizado para intentar explicar la localización fue realizado por Lloyd Jeffress en 1948. Este consiste en que la señal entra a cada canal auditivo y a la hora de procesarla, busca coincidencias entre la señal de cada oído. Estas coincidencias las evalúa en diversos puntos, según el tiempo de llegada de la señal, como se puede modelar en la figura \ref{C07_jeffress} \footnote{Fuente: \url{http://www.scholarpedia.org/article/Jeffress_model}}. Así, una señal que llega por el lado izquierdo primero, recorre una mayor cantidad de puntos de coincidencia que la señal del lado derecho. Cuando ambas señales se encuentran en uno de estos puntos, el cerebro es capaz de concluir de que lado provino la señal. \\ 
+
+\begin{figure*}[ht]
+\centering
+\includegraphics[scale=0.75]{C07_jeffress.png}
+\caption{Esquema del modelo de lineas de retraso de Jeffress.}
+\label{C07_jeffress}
+\end{figure*}
+
+Uno de los problemas a los cuales nos enfrentamos a la hora de localizar sonidos se da por el llamado \textbf{cono de confusión}. Este consiste en que desde el oído se proyecta una superficie cónica, en la cual todos los sonidos nos llegan de forma indiferenciable. El eje de estos conos calza con el eje interaural mostrado en la figura \ref{C07_planes}. Una de las particularidades de este cono es que no nos permite diferenciar sonidos sobre el plano medio, puesto que loa conos de ambos oídos se intersectan ahí. Esto causa que sea difícil sabe rsi un sonido está adelante o detrás de uno (\textit{esto es asumiendo que estamos en una sala anecoica, puesto que los rebotes pueden dar información adicional}). Sin embargo, existe un mecanismo muy fácil para contrarrestar este efecto. Al mover la cabeza, el espectro de los sonidos que nos llegan cambia, lo cual es interpretado por el cerebro y nos puede dar la información precisa del lugar de origen de la fuente. 
+
+\subsubsection*{Head Related Transfer Function (HRTF)}
+Esta función trata de describir cómo nos llegan los sonidos a cada tímpano. Para esto toma en consideración la ubicación de la fuente sonora y el efecto de la misma cabeza sobre las ondas de audio. En general, estas curvas se han obtenido de forma experimental (las más precisas al menos), realizando una gran cantidad de mediciones. Un ejemplo se puede ver en la figura \ref{C07_HRTF}\footnote{Fuente: \url{http://alumnus.caltech.edu/~franko/thesis/hrtffreq.gif}}. \\
+
+\begin{figure*}[ht]
+\centering
+\includegraphics[scale=0.6]{C07_HRTF.png}
+\caption{Ejemplo de curbas HRTF.}
+\label{C07_HRTF}
+\end{figure*}
+
+Gracias a estas curvas ha sido posible el generar audio binaural sin la necesidad de realizar la tarea de grabar el sonido con la técnica describida anteriormente. Con este método, basta con tener las curvas HRTF necesarias para el efecto que se quiere lograr, y el sonido que se quiere tratar. Mediante la operación de la convolución se logra obtener la señal definitiva para cada oído. Eso sí, este método, y en general el audio binaural, no está excento de problemas, los cuales incluso lo han llevado a fracasar comercialemtne (hasta ahora). 
+\begin{enumerate}
+\item En primer lugar las curvas sondistintas para cada persona, puesto que dependen de su sistema auditivo en particular y de cómo su cabeza distorsiona las ondas. En general, se usan curvas promedio, lo cual afecta la calidad del sonido.
+\item Esto sólo funciona cuando escuchamos el audio con audífonos. Al usar parlantes, se obtiene un fenómeno llamado cross-talk. Es decir, las ondas de sonido de cada canal se superponen, generando efectos no deseados. Sin embargo, este problema ya ha sido estudiado y corregido, aunque solo si el espectador se encuentra en cierta zona con respecto a los parlantes.
+\item El último, y más grave problema, es que estas funciones dependen de la posición de la cabeza de la persona. Como estas curvas cambian con la posición relativa del sonido, si giramos nuestra cabeza, el sonido debiera cambiar también. Entonces, necesitamos usar algún sistema de head-tracking, el cual nos permita tener pistas dinámicas calculadas en tiempo real. Esta es una de las razones por la cual los sistemas de audio ``surround'' que se venden, no son sistemas de audio 3D.
+\end{enumerate}
+
+Es interesante notar que cuando se escucha música normalmente con audífonos, la música se escucha dentro de la cabeza de uno mismo. El hecho de estar escuchando con audífonos y que no se localice el audio en ningún lado, hace que se escuche dentro de la cabeza. El único sonido que se escucha asi de forma natural es nuestra propia voz. Cuando movemos la cabeza, al estar localizada dentro de nosotros, la voz no cambia. Es por esto que es tan extraño escuchar nuestra propia voz desde una fuente externa.\\
+
+Finalmente, es importante estudiar el efecto de los sonidos cuando hay eco. En la realidad, las señales de audio rebotan lo que causa que a nuestro sistema auditivo nos llegue una gran cantidad de señales de audio repetidas, variando su intensidad y frecuencia, debido a que nos llegan de varios lugares distintos. Sin embargo, no percibimos esa infinidad de señales repetidas. El sistema auditivo es capaz de detectar dichos patrones, y al tener menor intensidad y cierto desfase, asociarlos a un sonido anterior original. De esta forma, suprime las diferentes repeticiones de dicho sonido dándole más sentido a lo que escuchamos. Esto es llamado \textbf{efecto de precedencia}. Probamos esto en clases mediante un experimento, en el cual se escucha un golpe de martillo en tres condiciones de eco distintas y luego se reprodujeron al revés. Según el tiempo de retardo del sonido, lo escuchamos como eco o simplemente no lo escuchamos. Pero si se invierten los sonidos, es decir más débil primero y más fuerte al final, escuchamos todos los sonidos, ya que no tiene sentido que un eco venga antes que el sonido original.
+
+%% FALTA LA TAREA!!
+
+
+\newpage
+\section{Percepción de timbre} \newsection{8}
+El timbre puede ser descrito como la característica personal, el sello de un sonido. Está determinado por varios aspectos, tales como la forma de la onda o el contenido y composición de armónicos, entre otros. Es decir, es un aspecto multidimensional del sonido, mucho más que las otras características previamente analizadas, lo que hace que no podamos hacer una ``escala'' de timbre. Tampoco es posible escribirlo de forma específica en la música, no tiene una notación. Lo que se hace habitualmente es describir el sonido con palabras. Algunas personas lo intentan definir como todo lo que no es pitch ni loudness, es decir, lo que nos permite distinguir dos sonidos como distintos a pesar de tener mismo pitch y loudness. El timbre también tiene que ver con la estructura del sonido, pudiendo analizar su trayectoria y espectro. Las partes transiente y de reposo definen gran parte del timbre, los cuales representan el ataque y ``sustain'' de los sonidos. Por otra parte, el brillo del sonido se ha relacionado con el centroide del espectro. \\
+
+\subsection*{Estudios multidimensionales}
+A pesar de no poder hacer una escala de timbre, es posible intentar hacer un mapa multidimensional de timbres. Generalmente, se hace un mapa tridimensional en donde se van juntando sonidos parecidos, es decir con un gran ``similarity rating''. Además de este rating, se usan etiquetas VAME (Verbal attribute magnitude estimator). Estos estudios se han podido realizar gracias a los computadores y la sintesis de sonido, los cuales nos permites mantener loudness y pitch en niveles iguales y modificar a gusto los diferentes parámetros. Así, es posible realizar estos estudios y crear escalas multidimensionales (MDS). El gran trabajo luego es el poder interpretar los ejes de los espacios formados. Uno de los trabajos más famosos del timbre es el realizado por Grey, cuyo resultado se puede apreciar en la figura \ref{C08_Grey}. A partir de este estudio, se han realizado varios otros que lo toman como base. Este es el caso del estudio de McAdams, el cual incorpora más instrumentos en el mismo análisis como se muestra en la figura \ref{C08_Mcadams}. 
+
+\begin{figure}[ht]
+\centering
+\includegraphics[scale=0.75]{C08_Grey.png}
+\caption{Estudio multidimensional de Grey (1977)}
+\label{C08_Grey}
+\end{figure}
+
+\begin{figure}[ht]
+\centering
+\includegraphics[scale=0.75]{C08_McAdams.png}
+\caption{Estudio de McAdams, el cual incorpora más instrumentos al estudio de Grey (1995)}
+\label{C08_Mcadams}
+\end{figure}
+
+Se han realizado más investigaciones para estudiar la composición del timbre de otras formas. El profesor Rodrigo Cádiz junto a Lipscomb hizo un estudio con un enfoque más científico. Trabajaron con doce combinaciones, producto de cuatro envolventes temporales junto a tres formas de onda, presentados en la tabla \ref{C08_CadizTab}. Estas combinaciones fueron presentadas a varios grupos de personas, pidiéndoles que describieran los sonidos de acuerdo a la escala de palabras de VAME, las cuales se pueden ver en la figura \ref{C08_VAME}\footnote{Fuente: Clases}. Lamentablemente, no se pudieron obtener resultados concluyentes de este estudio, aunque los resultados del grupo de gente con entrenamiento musical eran bastante prometedores.  Y esto mostró la diferencia que hace el entrenamiento musical en la escucha de sonidos, como se verá más adelante. \\
+
+\begin{table}[ht]
+\centering
+\begin{tabular}{cc}
+	\toprule
+	Envolventes temporales & Formas de onda\\
+	\midrule
+	Ataque impulsivo (IA) & Nota \\
+	Ataque cerrado (CA)  & Nodo \\
+	Ataque abierto (OA)  & Ruido \\
+	Graduado (G)\\
+	\bottomrule
+\end{tabular}
+\caption{Caracteristicas de los sonidos}
+\label{C08_CadizTab}
+\end{table}
+
+\begin{figure}[ht]
+\centering
+	\includegraphics[scale=0.9]{C08_VAME.png}
+	\caption{Palabras usadas para VAME}
+	\label{C08_VAME}
+\end{figure}
+
+Otro punto de importancia es el comportamiento del timbre en el tiempo, puesto que los timbres no son estáticos, sino que dependen de la evolución de armónicos en el tiempo. Parte de los parámetros que afectan es la variación de la energía en cada armónico, cuales están presentes en que instante o que frecuencias se enfatizan en el tiempo. Esto se debe a que cada banda de frecuencia no tiene por qué comportarse igual que el resto en el tiempo, lo que provoca que el timbre vaya evolucionando. Un ejemplo de esto se puede ver en la figura \ref{C08_tromp}\footnote{Fuente: Clases}.
+
+\begin{figure}[ht]
+\centering
+	\includegraphics[scale=0.55]{C08_variacionTiempo.png}
+	\caption{Variación de la intensidad en el tiempo de distintos armónicos del sonido de una trompeta}
+	\label{C08_tromp}
+\end{figure}
+
+Por otra parte, también interesa el comportamiento del timbre en distintas notas en el mismo instrumento. El timbre no se traspone simplemente, sino que varía su estructura según la nota tocada. Esto le pone una dificultad extra al sintetizar sonidos, puesto que debemos conocer la variación de la estructura del timbre para cada frecuencia fundamental.\\
+
+\textit{Esto lo encontré muy interesante desde el punto de vista de que como somos capaces de percibir dos notas como iguales en diferentes escalas, si el timbre varía también y que además pertenezcan al mismo instrumento. Sería interesante estudiar la autocorrelación del timbre en diferentes instrumentos, viendo su parecido al variar la frecuencia.}
+
+
+\newpage
+\section{Análisis de la escena auditiva} \newsection{9}
+Este trabajo ha sido realizado principalmente por el psicólogo canadiense Albert Bregman y presenta una teor[ia completa y unificada de todo el fen[omeno y c[omo entendemos la escena auditiva. La percepción de escena está muy estudiada a nivel visual, llegando incluso al punto en el cual se han podido programar robots que son capaces de ver e interpretar lo visto. Sin embargo, todavia no somos capaces de fabricar robots que escuchen y entiendan lo escuchado. Este estudio está basado en gran parte en su contraparte visual, tomando varios conceptos de la psicología de Gestalt. Tiene tres componentes fundamentales: segmentación, integración y segregación. \\
+
+Para lograr la comparación entre la parte visual y la auditiva, hay que reconocer la unidad básica de reconocimiento. Así como en la visión reconocemos distintos objetos visuales, los cuales agrupamos y tratamos como unidad, en el sistema auditivo tenemos ``streams'' auditivos. Por ejemplo, mientras que visualmente tenemos el fenómeno de size consistency, en el cual un objeto no cambia de tamaño a medida que se acerca, en la audición tenemos timbre consistency. Este fenómeno dice que la voz de una persona no cambia por el ruido que se encuentre en el ambiente. En fin, este estudio da cuenta de como interpretamos la realidad de acuerdo a ciertos criterios. Algunos de los principios gestálticos en la audición son los siguientes:
+
+\begin{itemize}
+\itembf{Continuidad}: Si tenemos un sonido con un vacío, lo escuchamos como dos streams distintos. En cambio, si el vacío lo rellenamos de un ruido, lo percibimos como un solo stream. Es equivalente a ver un obtejo a través de una reja que tapa partes de este. El objeto no lo percibimos como si estuviese cortado, sino que sabemos que tiene continuidad.
+\itembf{Proximidad}: Consiste en que si tenemos tonos de pitch y loudness parecidos, bajo ciertos criterios los percibimos como si fuesen del mismo stream.
+\end{itemize}
+
+Por otra parte, nuestro sistema auditivoes capaz de de aislar gran parte del ruido externo para concentrarnos en una sola cosa, intentar percibir bien una fuente de sonido. Hacer esto en un computador es muy difícil, puesto que no sabemos de donde viene cada sonido. Además, los streams de cada fuente se unen en el espacio, por lo que a nuestro canal auditivo llega una gran cantidad de streams unidos, distorcionados y con diversos ecos, lo que hace que teóricamente sea de gran dificultad poder distinguir cada parte por separado. Esto se puede ver con una muy buena analogía. En el borde de un lago hacemos dos zurcos largos y angostos en los cuales ponemos una hoja que vibra con las ondas en el agua. Si analizamos el movimiento de las hojas es prácticamente imposible responder a preguntar como cuántos botes o barcos se encuentran presentes, cuál está más cerca o si hay viento o si ha caído un objeto o muchas preguntas más. Pero, haciendo la analogia entre los zurcos con la hoja con nuestro canal auditivo y tímpanos, vemos que somos capaces de hacer todo esto y de forma rapidísima, casi inmediata!\\
+
+\textit{Es importante tener en mente la escencia de la percepción. Esto es como cada uno ve el mundo, puede no ser así necesariamente. Es por esto que se dan ciertas ``mentiras'' perceptuales. Cosas que no están completas las vemos o escuchamos como si lo estuviesen, o encontramos patrones que asociamos a streams. Todo esto es debido a que el cerebro intenta hacer sentido de la información visual y auditiva que nos llega, aunque esto d¿signifique distorcionar la realidad de cierta forma.}\\
+
+El análisis de la escena auditiva nos dice que la percepción auditiva tiene como objetivo el poder indentificar o estimar las fuentes sonoras de la mezcla de streams que nos llega. Si percibimos un patrón estructuralmente intacto, este debe provenir de una fuente. En cambio, si percibimos N patrones intactos, entonces tenemos N fuentes diferentes. El etudio de Bregman se centró en gran parte en determinar qué determina que un patrón se perciba estructuralmente intacto. La teoría de respuesta de Bregman asume un proceso en dos etapas: procesos primitivos y procesos esquemáticos. Los procesos primitivos son procesos automáticos, suceden sin esfuerzo alguno y permiten detectar grupos perceptuales. Los procesos esquemáticos con procesos aprendidos, los cuales requieren de esfuerzo al prestar atención a ciertos grupos formados anteriormente. \\
+
+En clases se realizaron varios experimentos para ver los resultados de Bregman. Estos dependen del método de integración auditiva que usemos. Estos pueden ser tanto por integración temporal como espectral. Estos experimentos fueron:
+\begin{itemize}
+\itembf{Integración temporal}
+\begin{itemize}
+\itembf{Tonos intercalados}, segregación de streams
+\itembf{Patrones con interrupciones}, camuflaje auditivo
+\itembf{Pérdida de información ritmica}, segmentación y ritmo
+\itembf{Streaming de distintos flujos}
+\itembf{Efecto de rango de altura} en la separación de streams
+\itembf{Efecto de timbre} en la separación de streams
+\itembf{Efecto de la posición espectral} en la separación de streams
+\itembf{Efecto auditivo de la conexión}, conectividad auditiva
+\itembf{} 
+\end{itemize}
+
+\itembf{Integración espectral}
+\begin{itemize}
+\itembf{Argumento de frecuencia fundamental común}
+\itembf{Modulación de frecuencia común}
+\itembf{Modulación micro en percepción de voz}
+\end{itemize}
+\end{itemize}
+
+\newpage
+\section{Voz humana y habla} \newsection{10}
+La voz humana es un proceso bastante complejo. Desde un punto de vista anatómico, tenemos nuestra fuente de poder son los pulmones, los cuales empujan el aire hacia las cuerdas vocales. Éstas producen los sonidos ``hablados'' al vibrar con el paso del aire, produciendo ondas sonoras complejas. Luego, estos sonidos pasan al tracto vocal, compuesto por la laringe y cavidades bucal y nasal. El tracto vocal posee ciertas características únicas en cada persona y es lo que da el timbre personal, puesto que posee ciertas resonancias y amplificaciones de ciertas frecuencias. Estas resonancias se llaman \textbf{formantes} y se clasifican de acuerdo a ciertas alturas. Los sonidos no hablados son como ruidos producidos como turbulencias u obstrucciones de este tracto. Por otra parte, las diferentes vocales y consonantes se producen de formas distintas. Los sonidos vocales se producen en distintas partes de la cavidad bucal, como se ve en la figura \ref{C10_Vowels} \footnote{Fuente: Clases}, mientras que las consonantes se agrupan segun sus características, como se ve en la tabla \ref{C10_Consonant} \footnote{Fuente: Clases}\\
+
+Los \textbf{fonemas} son los grupos de sonidos que se clasifican como idénticos. Estos son las letras de cada idioma. La letra `p' no suena igual en todas las palabras, pero dichos sonidos los asociamos siempre con esa letra. En este caso se dice que esos sonidos son \textbf{alófonos} de dicho fonema. Por otra parte, tenemos los elementos \textbf{fonéticos}, los cuales representan el sonido producido al hablar. En este caso se hace la distinción en cada inflexión que se pueda producir. Acá se pueden introducir diferencias en cada idioma y como afectan a nuestra percepción. Si en un idioma no se hace la distinción entre dos sonidos y se tratan como alófonos, entonces esas personas no serán capaces de distinguir dicha diferencia en un idioma distinto. Esto muestra que el proceso del habla es aprendido y los sonidos que distinguimos dependen de nuestra cultura idiomática.\\
+
+\begin{figure}[ht]
+\centering
+\includegraphics[scale=0.5]{C10_Vowels.png}
+\caption{Formación de vocales}
+\label{C10_Vowels}
+\end{figure}
+
+\begin{figure}[ht]
+\centering
+\includegraphics[width=0.95\textwidth]{C10_Consonant.png}
+\caption{Tipos de consonantes}
+\label{C10_Consonant}
+\end{figure}
+
+Los formantes son muy relevantes para el análisis de la voz humana, puesto que son éstos los que nos dan la información necesaria para identificar y procesar correctamente lo que se dice. Los dos formantes más bajos son los encargados de determinar la identidad de la mayoría de las vocales, y pueden cambiar hasta en dos octavas. Se puede ver el contenido de frecuencias de varias palabras, junto a la forma de la cavidad bucal asociada en la figura \ref{C10_tongue} \footnote{Fuente: Clases}. En cambio, los formantes más altos no contribuyen a la calidad de la vocal formada, pero sí al timbre personal. Además, la trayectoria de los formantes nos entregan la combinación consonante-vocal, lo cual se puede ver en la figura \ref{C10_transition} \footnote{Fuente: Clases}. \\
+
+Se realizó una tarea, en la cual se pidió analizar nuestro registro de voz. En primer lugar se analizaron las formantes de las vocales en cinco alturas de pitch distintas. Esto nos permitió observar que la estructura de formantes de cada vocal permanece prácticamente intacta. Luego, se nos pidió analizar la trayectoria de las formantes al realizar combinaciones consonante-vocal viendo una consonante de cada grupo anteriormente descritos. Esto nos mostró que la consonante inicial tiene ciertas características definidas las cuales cambian suavemente en el tiempo para dar paso a la vocal requerida.\\
+
+
+\begin{figure}[ht]
+\centering
+\includegraphics[scale=0.7]{C10_Vowels2.png}
+\caption{Formación de vocales según la posición de la lengua y tracto vocal}
+\label{C10_tongue}
+\end{figure}
+
+\begin{figure}[ht]
+\centering
+\includegraphics[scale=0.65]{C10_transition.png}
+\caption{Transición de las formantes cuando se juntan vocales y consonantes}
+\label{C10_transition}
+\end{figure}
+
+Finalmente, es interesante notar que al cantar se modifican las frecuencias de las formantes, las cuales pueden caer incluso en la categoría de otra vocal. Además, modificamos nuestra altura de voz (pitch). En general las frecuencias fundamentales del habla están alrededor de los 110 y 200 Hz (hombres - mujeres), pero al cantar se sube por lo menos a los 350 Hz. Esto se debe a que al cantar, se intenta mover la frecuencia de las formantes hacia la fundamental que se quiere alcanzar. Usualmente esto se hace modificando la apertura de la mandíbula, incrementando la amplitud de las formantes. Esto se puede apreciar en la figura \ref{C10_sing} \footnote{Fuente: Clases}.
+
+\begin{figure}[ht]
+\centering
+\includegraphics[scale=0.9]{C10_sing.png}
+\caption{Cambio de frecuencias de las formantes al cantar}
+\label{C10_sing}
+\end{figure}
+
+
+\newpage \quad \newpage
+\section{Música y cognición} \newsection{11}
+La cognición se puede definir como la representación mental de un proceso. En otras palabras, es cómo procesamos la información a partir de la percepción, conocimiento adquirido y otros aspectos subjetivos\footnote{Fuente: Wikipedia}. En el aspecto del curso, podemos decir que la cognición a nivel musical es el cómo representamos la audición o la música en nuestra cabeza. De acá salen las preguntas: ¿Cómo queda la música en nuestra cabeza? ¿Qué cortezas se activan? ¿Cómo improvisamos o recordamos música?. En fin, es un tema bastante complejo que podría tener un curso completo destinado a entender los procesos cognitivos musicales, pero de todas formas intentaremos veremos un par de conceptos:
+\begin{enumerate}
+\item Interacción con la música en presencia o ausencia de información ``extra musical''
+\item Relación visión - audición
+\end{enumerate}
+
+\subsection{Interacción e información extra musical}
+En primer lugar, es importante ver las razones por las cuales escuchamos música. En general, las pudimos encapsular en las siguientes:
+\begin{itemize}
+\itembf{Placer}: Va ligado con las sensaciones, la necesidad emocional de las personas. Es un concepto bastante amplio, pero que enfrasca la emocionalidad de las personas. Incluso cuando queremos escuchar canciones que nos dan tristeza, lo hacemos con ciertas ganas de llegar a dicho estado emocional, lo que lleva un tipo de placer. Esto lo hacemos a un nivel tanto de melodía como de la letra de las canciones, a las cuales les otorgamos cierto valor emocional.
+\itembf{Bloqueo}: Otra opción es para bloquear otros sentidos. Hay estudios que avalan este método. Al estar sometido a cierto estímulo auditivo que decidimos ``desechar'', bloqueamos dicho sentido, pudiendo otorgar mayor atención a otros o evitando ser distraídos por otras señales auditivas.
+\itembf{Inquietud intelectual}: Una opción que se asocia más a la música docta o a la exploración de nuevos materiales. Acá queremos ver distintas obras que han sido creadas por una curiosidad que va más allá del placer. Este tipo de escucha sirve para alimentar el conocimiento musical o, desde un punto de vista menos abstracto, para ver distintas interpretaciones del mundo.
+\end{itemize}
+
+Analizando la escucha musical de la mayoría de la gente, escuchamos lo que se nos presenta, lo que otras personas nos muestras. Es más, escuchamos de la forma en la que nos enseñan a escuchar, lo que nos limita de gran forma a apreciar distintas formas de arte musical. Por ejemplo, personas sin acercamiento a música docta, no será capaz de apreciar lo realizado por el compisitor, pero podrá disfrutar de la música comercial sin ningun problema. Pero al empezar a exponer a estas personas a otros tipos de arte musical, con el tiempo son capaces de detectar y aprender a escuchar de forma diferente. Sin embargo, también hay componentes naturales en nuestra escucha. Se ha demostrado que ciertos acordes son preferidos por recien nacidos, incluso mientras están en gestación, lo que indica cierta predilección instintiva por cierto tipo de música.\\
+
+\textit{Esto lo encuentro sumamente interesante, ya que reafirma que existen conceptos más que estudiados para la creación de ``música envasada'' o popular. Al estudiar las respuestas inconscientes del humano frente a distintos tipos de acordes, progresiones u otros, es fácil predecir la respuesta de la gente frente a la creación musical. También es posible condicionar a las personas de esta forma, lo que se ve aplicado en locales comerciales diariamente.}\\
+
+Para analizar este concepto se realizó un ejemplo en clases. En un comienzo se nos hizo escuchar una obra sin ninguna información. Luego, se nos dio el nombre de la obra y la escuchamos nuevamente. Finalmente, se nos entregó toda la información referente a la obra, el autor y la nota de programa, para escucharla por una última vez. En cada una de estas veces teníamos que fijarnos en el paisaje sonoro, las posibles fuentes y las sensaciones que nos daba dicha obra.
+\begin{enumerate}
+\itembf{Sin información adicional}\\
+Escuché bombos y vientos creando tensión, suspenso. También sonaba algo parecido a puertas crujiendo o parlantes malos y ramas quebrándose. Habia una sensación extraña en el ambiente, como llegando al límite de algo. Luego, empezó la invasión de algo. Finalmente, se pierden los bajos y la obra tiene menos sentido, puesto que antes se apreciaba una estructura rítmica.
+\itembf{Sólo título} - Nombre de la obra: Estrellas compactas\\
+Esta vez se me vinieron a la mente fractales tridimensionales. Como si estuviesen ocurriendo varios big bangs simultáneos y sucesivos. Las formas se comprimían y explotaban para aumentar su tamaño. Además, el crecimiento era ramificado. Estaban hechas de algun tipo de material que se podía quebrar, pero también endurecer en cada posición nueva. Al final, cuando se pierden los bajos, suena como campanas. Es como si se estuviesen descascarando estas moles y caen pequeños diamantes de estrellas.
+\itembf{Información completa} - Autor: Federuco Schumacher, fecha: 2003, en la nota de programa cuenta que son los diferentes sonidos que produce el tubo de su aspiradora más un homenaje a los variados ruidos de su apartamento que intentó grabar con una máquina, pero que no pudo grabarlos completamente.\\
+ Esta vez se fueron la mayoría de los aspectos abstractos anteriores. Me imaginaba el tubo de PVC de la aspiradora con cosas atascadas que les costaba pasar. Sonidos rugosos y rebotes a lo largo del tubo, como si estuviese absorviendo una pelota. Ruidos de latas de bebida abriéndose, puertas y suelos crujiendo. Finalmente, campanillas de ventanal.
+\end{enumerate}
+
+Esto nos muestra como influye la información extra-musical en la cognición. A mayor cantidad de información que poseemos, menor espacio tenemos para imaginar. \textit{Nuestro cerebro intenta dar sentido a las cosas que escuchamos, por lo que no podemos ir en contra de la información ya adquirida. Provocaríamos una especie de colapso al intentar ir en contra de dicha información o incluso al intentar ignorarla, ya que incluso inconsientemente sabemos que va a hacer menos sentido.} 
+
+
+\newpage
+\section{Percepción rítmica} \newsection{12}
+(Clase basada en el trabajo de Juan Pablo Cáceres, ``Performance Issues and Strategies'')\\
+
+Al analizar las diferentes problemáticas a la hora de querer tocar música con otras personas a través de internet, llegamos al problema fundamental del retraso de las señales. Este problema es natural y también se puede dar en vivo, en el caso de grandes orquestas. Se podría llegar a pensar que lo óptimo sería tener una red completamente libre de retraso, pero este caso no es el óptimo. Resultados experimentales mostraron que un buen sistema de música por internet incorpora un leve retraso de aproximadamente 15 ms. Esto se debe a la diferencia de las velocidades de la luz y el sonido, puesto que estamos acostumbrados a compensar dicho retraso en la vidda real. Hay tres posibles efectos de descompensación temporal: lead (cuando la señal auditiva tiene muy poco retraso), synch (cuando está bien calibrada) y lag (cuando el retraso es mayor al ideal).\\
+
+Otra forma de analizar el retraso es en orquestas. Se da un retraso natural, debido a las distintas posiciones de los músicos y al tiempo de respuesta de cada uno, lo que hace que la obra no esté 100\% coordinada. Sin embargo, al ser presentados frente a una orquesta coordinada perfectamente, con perfección rítmica, (logrado de forma artificial por medio de computadores) se tiene la sensación de música no natural. Logramos notar que es producida por máquinas al quitarle dichas imperfecciones sutiles a nivel rítmico.\\
+
+\textit{Encuentro muy interesante que seamos capaces de dicernir si algo suena ``perfecto'' o no, incluso a nivel rítmico. Además, como se ha visto durante todo el curso, el cerebro intenta, por todos los medios posibles, hacer sentido de las señales que nos llegan constantemente. Así, al ser presentados una obra con perfección rítmica, somos capaces de discernir la no-naturalidad de la fuente, asumiendo la imposibilidad de tal nivel de perfección en la naturaleza.}
+
+%\end{multicols}
+
+\end{document}

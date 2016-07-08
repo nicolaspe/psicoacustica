@@ -1,0 +1,1156 @@
+This is pdfTeX, Version 3.1415926-2.4-1.40.13 (MiKTeX 2.9 64-bit) (preloaded format=pdflatex 2013.5.13)  20 NOV 2013 00:36
+entering extended mode
+**portafolio.tex
+("C:\Users\nico\Dropbox\uc\Sem 13-02\Psicoacustica\Portafolio\portafolio.tex"
+LaTeX2e <2011/06/27>
+Babel <v3.8m> and hyphenation patterns for english, afrikaans, ancientgreek, ar
+abic, armenian, assamese, basque, bengali, bokmal, bulgarian, catalan, coptic, 
+croatian, czech, danish, dutch, esperanto, estonian, farsi, finnish, french, ga
+lician, german, german-x-2012-05-30, greek, gujarati, hindi, hungarian, iceland
+ic, indonesian, interlingua, irish, italian, kannada, kurmanji, latin, latvian,
+ lithuanian, malayalam, marathi, mongolian, mongolianlmc, monogreek, ngerman, n
+german-x-2012-05-30, nynorsk, oriya, panjabi, pinyin, polish, portuguese, roman
+ian, russian, sanskrit, serbian, slovak, slovenian, spanish, swedish, swissgerm
+an, tamil, telugu, turkish, turkmen, ukenglish, ukrainian, uppersorbian, usengl
+ishmax, welsh, loaded.
+("C:\Program Files\MiKTeX 2.9\tex\latex\base\article.cls"
+Document Class: article 2007/10/19 v1.4h Standard LaTeX document class
+("C:\Program Files\MiKTeX 2.9\tex\latex\base\size10.clo"
+File: size10.clo 2007/10/19 v1.4h Standard LaTeX file (size option)
+)
+\c@part=\count79
+\c@section=\count80
+\c@subsection=\count81
+\c@subsubsection=\count82
+\c@paragraph=\count83
+\c@subparagraph=\count84
+\c@figure=\count85
+\c@table=\count86
+\abovecaptionskip=\skip41
+\belowcaptionskip=\skip42
+\bibindent=\dimen102
+)
+("C:\Program Files\MiKTeX 2.9\tex\latex\geometry\geometry.sty"
+Package: geometry 2010/09/12 v5.6 Page Geometry
+
+("C:\Program Files\MiKTeX 2.9\tex\latex\graphics\keyval.sty"
+Package: keyval 1999/03/16 v1.13 key=value parser (DPC)
+\KV@toks@=\toks14
+)
+("C:\Program Files\MiKTeX 2.9\tex\generic\oberdiek\ifpdf.sty"
+Package: ifpdf 2011/01/30 v2.3 Provides the ifpdf switch (HO)
+Package ifpdf Info: pdfTeX in PDF mode is detected.
+)
+("C:\Program Files\MiKTeX 2.9\tex\generic\oberdiek\ifvtex.sty"
+Package: ifvtex 2010/03/01 v1.5 Detect VTeX and its facilities (HO)
+Package ifvtex Info: VTeX not detected.
+)
+("C:\Program Files\MiKTeX 2.9\tex\generic\ifxetex\ifxetex.sty"
+Package: ifxetex 2010/09/12 v0.6 Provides ifxetex conditional
+)
+\Gm@cnth=\count87
+\Gm@cntv=\count88
+\c@Gm@tempcnt=\count89
+\Gm@bindingoffset=\dimen103
+\Gm@wd@mp=\dimen104
+\Gm@odd@mp=\dimen105
+\Gm@even@mp=\dimen106
+\Gm@layoutwidth=\dimen107
+\Gm@layoutheight=\dimen108
+\Gm@layouthoffset=\dimen109
+\Gm@layoutvoffset=\dimen110
+\Gm@dimlist=\toks15
+
+("C:\Program Files\MiKTeX 2.9\tex\latex\geometry\geometry.cfg"))
+("C:\Program Files\MiKTeX 2.9\tex\latex\graphics\graphicx.sty"
+Package: graphicx 1999/02/16 v1.0f Enhanced LaTeX Graphics (DPC,SPQR)
+
+("C:\Program Files\MiKTeX 2.9\tex\latex\graphics\graphics.sty"
+Package: graphics 2009/02/05 v1.0o Standard LaTeX Graphics (DPC,SPQR)
+
+("C:\Program Files\MiKTeX 2.9\tex\latex\graphics\trig.sty"
+Package: trig 1999/03/16 v1.09 sin cos tan (DPC)
+)
+("C:\Program Files\MiKTeX 2.9\tex\latex\00miktex\graphics.cfg"
+File: graphics.cfg 2007/01/18 v1.5 graphics configuration of teTeX/TeXLive
+)
+Package graphics Info: Driver file: pdftex.def on input line 91.
+
+("C:\Program Files\MiKTeX 2.9\tex\latex\pdftex-def\pdftex.def"
+File: pdftex.def 2011/05/27 v0.06d Graphics/color for pdfTeX
+
+("C:\Program Files\MiKTeX 2.9\tex\generic\oberdiek\infwarerr.sty"
+Package: infwarerr 2010/04/08 v1.3 Providing info/warning/error messages (HO)
+)
+("C:\Program Files\MiKTeX 2.9\tex\generic\oberdiek\ltxcmds.sty"
+Package: ltxcmds 2011/11/09 v1.22 LaTeX kernel commands for general use (HO)
+)
+\Gread@gobject=\count90
+))
+\Gin@req@height=\dimen111
+\Gin@req@width=\dimen112
+)
+("C:\Program Files\MiKTeX 2.9\tex\generic\babel\babel.sty"
+Package: babel 2008/07/08 v3.8m The Babel package
+
+*************************************
+* Local config file bblopts.cfg used
+*
+("C:\Program Files\MiKTeX 2.9\tex\latex\00miktex\bblopts.cfg"
+File: bblopts.cfg 2006/07/31 v1.0 MiKTeX 'babel' configuration
+)
+("C:\Program Files\MiKTeX 2.9\tex\generic\babel\spanish.ldf"
+Language: spanish.ldf 2009/01/02 v5.0h Spanish support from the babel system
+
+("C:\Program Files\MiKTeX 2.9\tex\generic\babel\babel.def"
+File: babel.def 2008/07/08 v3.8m Babel common definitions
+\babel@savecnt=\count91
+\U@D=\dimen113
+)
+\es@datefmt=\count92
+\es@quottoks=\toks16
+\es@quotdepth=\count93
+Package babel Info: Making " an active character on input line 492.
+Package babel Info: Making . an active character on input line 585.
+Package babel Info: Making < an active character on input line 630.
+Package babel Info: Making > an active character on input line 630.
+))
+("C:\Program Files\MiKTeX 2.9\tex\latex\base\inputenc.sty"
+Package: inputenc 2008/03/30 v1.1d Input encoding file
+\inpenc@prehook=\toks17
+\inpenc@posthook=\toks18
+
+("C:\Program Files\MiKTeX 2.9\tex\latex\base\latin1.def"
+File: latin1.def 2008/03/30 v1.1d Input encoding file
+))
+("C:\Program Files\MiKTeX 2.9\tex\latex\amsmath\amsmath.sty"
+Package: amsmath 2013/01/14 v2.14 AMS math features
+\@mathmargin=\skip43
+
+For additional information on amsmath, use the `?' option.
+("C:\Program Files\MiKTeX 2.9\tex\latex\amsmath\amstext.sty"
+Package: amstext 2000/06/29 v2.01
+
+("C:\Program Files\MiKTeX 2.9\tex\latex\amsmath\amsgen.sty"
+File: amsgen.sty 1999/11/30 v2.0
+\@emptytoks=\toks19
+\ex@=\dimen114
+))
+("C:\Program Files\MiKTeX 2.9\tex\latex\amsmath\amsbsy.sty"
+Package: amsbsy 1999/11/29 v1.2d
+\pmbraise@=\dimen115
+)
+("C:\Program Files\MiKTeX 2.9\tex\latex\amsmath\amsopn.sty"
+Package: amsopn 1999/12/14 v2.01 operator names
+)
+\inf@bad=\count94
+LaTeX Info: Redefining \frac on input line 210.
+\uproot@=\count95
+\leftroot@=\count96
+LaTeX Info: Redefining \overline on input line 306.
+\classnum@=\count97
+\DOTSCASE@=\count98
+LaTeX Info: Redefining \ldots on input line 378.
+LaTeX Info: Redefining \dots on input line 381.
+LaTeX Info: Redefining \cdots on input line 466.
+\Mathstrutbox@=\box26
+\strutbox@=\box27
+\big@size=\dimen116
+LaTeX Font Info:    Redeclaring font encoding OML on input line 566.
+LaTeX Font Info:    Redeclaring font encoding OMS on input line 567.
+\macc@depth=\count99
+\c@MaxMatrixCols=\count100
+\dotsspace@=\muskip10
+\c@parentequation=\count101
+\dspbrk@lvl=\count102
+\tag@help=\toks20
+\row@=\count103
+\column@=\count104
+\maxfields@=\count105
+\andhelp@=\toks21
+\eqnshift@=\dimen117
+\alignsep@=\dimen118
+\tagshift@=\dimen119
+\tagwidth@=\dimen120
+\totwidth@=\dimen121
+\lineht@=\dimen122
+\@envbody=\toks22
+\multlinegap=\skip44
+\multlinetaggap=\skip45
+\mathdisplay@stack=\toks23
+LaTeX Info: Redefining \[ on input line 2665.
+LaTeX Info: Redefining \] on input line 2666.
+)
+("C:\Program Files\MiKTeX 2.9\tex\latex\amsfonts\amsfonts.sty"
+Package: amsfonts 2013/01/14 v3.01 Basic AMSFonts support
+\symAMSa=\mathgroup4
+\symAMSb=\mathgroup5
+LaTeX Font Info:    Overwriting math alphabet `\mathfrak' in version `bold'
+(Font)                  U/euf/m/n --> U/euf/b/n on input line 106.
+)
+("C:\Program Files\MiKTeX 2.9\tex\latex\amsfonts\amssymb.sty"
+Package: amssymb 2013/01/14 v3.01 AMS font symbols
+)
+("C:\Program Files\MiKTeX 2.9\tex\latex\amscls\amsthm.sty"
+Package: amsthm 2004/08/06 v2.20
+\thm@style=\toks24
+\thm@bodyfont=\toks25
+\thm@headfont=\toks26
+\thm@notefont=\toks27
+\thm@headpunct=\toks28
+\thm@preskip=\skip46
+\thm@postskip=\skip47
+\thm@headsep=\skip48
+\dth@everypar=\toks29
+)
+("C:\Program Files\MiKTeX 2.9\tex\latex\tools\array.sty"
+Package: array 2008/09/09 v2.4c Tabular extension package (FMi)
+\col@sep=\dimen123
+\extrarowheight=\dimen124
+\NC@list=\toks30
+\extratabsurround=\skip49
+\backup@length=\skip50
+)
+("C:\Program Files\MiKTeX 2.9\tex\latex\xcolor\xcolor.sty"
+Package: xcolor 2007/01/21 v2.11 LaTeX color extensions (UK)
+
+("C:\Program Files\MiKTeX 2.9\tex\latex\00miktex\color.cfg"
+File: color.cfg 2007/01/18 v1.5 color configuration of teTeX/TeXLive
+)
+Package xcolor Info: Driver file: pdftex.def on input line 225.
+Package xcolor Info: Model `cmy' substituted by `cmy0' on input line 1337.
+Package xcolor Info: Model `hsb' substituted by `rgb' on input line 1341.
+Package xcolor Info: Model `RGB' extended on input line 1353.
+Package xcolor Info: Model `HTML' substituted by `rgb' on input line 1355.
+Package xcolor Info: Model `Hsb' substituted by `hsb' on input line 1356.
+Package xcolor Info: Model `tHsb' substituted by `hsb' on input line 1357.
+Package xcolor Info: Model `HSB' substituted by `hsb' on input line 1358.
+Package xcolor Info: Model `Gray' substituted by `gray' on input line 1359.
+Package xcolor Info: Model `wave' substituted by `hsb' on input line 1360.
+)
+("C:\Program Files\MiKTeX 2.9\tex\latex\chngcntr\chngcntr.sty"
+Package: chngcntr 2009/09/02 v1.0a change counter resetting
+)
+("C:\Program Files\MiKTeX 2.9\tex\latex\tools\multicol.sty"
+Package: multicol 2011/06/27 v1.7a multicolumn formatting (FMi)
+\c@tracingmulticols=\count106
+\mult@box=\box28
+\multicol@leftmargin=\dimen125
+\c@unbalance=\count107
+\c@collectmore=\count108
+\doublecol@number=\count109
+\multicoltolerance=\count110
+\multicolpretolerance=\count111
+\full@width=\dimen126
+\page@free=\dimen127
+\premulticols=\dimen128
+\postmulticols=\dimen129
+\multicolsep=\skip51
+\multicolbaselineskip=\skip52
+\partial@page=\box29
+\last@line=\box30
+\mult@rightbox=\box31
+\mult@grightbox=\box32
+\mult@gfirstbox=\box33
+\mult@firstbox=\box34
+\@tempa=\box35
+\@tempa=\box36
+\@tempa=\box37
+\@tempa=\box38
+\@tempa=\box39
+\@tempa=\box40
+\@tempa=\box41
+\@tempa=\box42
+\@tempa=\box43
+\@tempa=\box44
+\@tempa=\box45
+\@tempa=\box46
+\@tempa=\box47
+\@tempa=\box48
+\@tempa=\box49
+\@tempa=\box50
+\@tempa=\box51
+\c@columnbadness=\count112
+\c@finalcolumnbadness=\count113
+\last@try=\dimen130
+\multicolovershoot=\dimen131
+\multicolundershoot=\dimen132
+\mult@nat@firstbox=\box52
+\colbreak@box=\box53
+\multicol@sort@counter=\count114
+)
+("C:\Program Files\MiKTeX 2.9\tex\latex\multirow\multirow.sty"
+\bigstrutjot=\dimen133
+)
+("C:\Program Files\MiKTeX 2.9\tex\latex\hyperref\hyperref.sty"
+Package: hyperref 2012/11/06 v6.83m Hypertext links for LaTeX
+
+("C:\Program Files\MiKTeX 2.9\tex\generic\oberdiek\hobsub-hyperref.sty"
+Package: hobsub-hyperref 2012/04/25 v1.12 Bundle oberdiek, subset hyperref (HO)
+
+
+("C:\Program Files\MiKTeX 2.9\tex\generic\oberdiek\hobsub-generic.sty"
+Package: hobsub-generic 2012/04/25 v1.12 Bundle oberdiek, subset generic (HO)
+Package: hobsub 2012/04/25 v1.12 Construct package bundles (HO)
+Package hobsub Info: Skipping package `infwarerr' (already loaded).
+Package hobsub Info: Skipping package `ltxcmds' (already loaded).
+Package: ifluatex 2010/03/01 v1.3 Provides the ifluatex switch (HO)
+Package ifluatex Info: LuaTeX not detected.
+Package hobsub Info: Skipping package `ifvtex' (already loaded).
+Package: intcalc 2007/09/27 v1.1 Expandable calculations with integers (HO)
+Package hobsub Info: Skipping package `ifpdf' (already loaded).
+Package: etexcmds 2011/02/16 v1.5 Avoid name clashes with e-TeX commands (HO)
+Package etexcmds Info: Could not find \expanded.
+(etexcmds)             That can mean that you are not using pdfTeX 1.50 or
+(etexcmds)             that some package has redefined \expanded.
+(etexcmds)             In the latter case, load this package earlier.
+Package: kvsetkeys 2012/04/25 v1.16 Key value parser (HO)
+Package: kvdefinekeys 2011/04/07 v1.3 Define keys (HO)
+Package: pdftexcmds 2011/11/29 v0.20 Utility functions of pdfTeX for LuaTeX (HO
+)
+Package pdftexcmds Info: LuaTeX not detected.
+Package pdftexcmds Info: \pdf@primitive is available.
+Package pdftexcmds Info: \pdf@ifprimitive is available.
+Package pdftexcmds Info: \pdfdraftmode found.
+Package: pdfescape 2011/11/25 v1.13 Implements pdfTeX's escape features (HO)
+Package: bigintcalc 2012/04/08 v1.3 Expandable calculations on big integers (HO
+)
+Package: bitset 2011/01/30 v1.1 Handle bit-vector datatype (HO)
+Package: uniquecounter 2011/01/30 v1.2 Provide unlimited unique counter (HO)
+)
+Package hobsub Info: Skipping package `hobsub' (already loaded).
+Package: letltxmacro 2010/09/02 v1.4 Let assignment for LaTeX macros (HO)
+Package: hopatch 2011/06/24 v1.1 Wrapper for package hooks (HO)
+Package: xcolor-patch 2011/01/30 xcolor patch
+Package: atveryend 2011/06/30 v1.8 Hooks at the very end of document (HO)
+Package atveryend Info: \enddocument detected (standard20110627).
+Package: atbegshi 2011/10/05 v1.16 At begin shipout hook (HO)
+Package: refcount 2011/10/16 v3.4 Data extraction from label references (HO)
+Package: hycolor 2011/01/30 v1.7 Color options for hyperref/bookmark (HO)
+)
+("C:\Program Files\MiKTeX 2.9\tex\latex\oberdiek\auxhook.sty"
+Package: auxhook 2011/03/04 v1.3 Hooks for auxiliary files (HO)
+)
+("C:\Program Files\MiKTeX 2.9\tex\latex\oberdiek\kvoptions.sty"
+Package: kvoptions 2011/06/30 v3.11 Key value format for package options (HO)
+)
+\@linkdim=\dimen134
+\Hy@linkcounter=\count115
+\Hy@pagecounter=\count116
+
+("C:\Program Files\MiKTeX 2.9\tex\latex\hyperref\pd1enc.def"
+File: pd1enc.def 2012/11/06 v6.83m Hyperref: PDFDocEncoding definition (HO)
+)
+\Hy@SavedSpaceFactor=\count117
+
+("C:\Program Files\MiKTeX 2.9\tex\latex\00miktex\hyperref.cfg"
+File: hyperref.cfg 2002/06/06 v1.2 hyperref configuration of TeXLive
+)
+Package hyperref Info: Hyper figures OFF on input line 4443.
+Package hyperref Info: Link nesting OFF on input line 4448.
+Package hyperref Info: Hyper index ON on input line 4451.
+Package hyperref Info: Plain pages OFF on input line 4458.
+Package hyperref Info: Backreferencing OFF on input line 4463.
+Package hyperref Info: Implicit mode ON; LaTeX internals redefined.
+Package hyperref Info: Bookmarks ON on input line 4688.
+\c@Hy@tempcnt=\count118
+
+("C:\Program Files\MiKTeX 2.9\tex\latex\ltxmisc\url.sty"
+\Urlmuskip=\muskip11
+Package: url 2006/04/12  ver 3.3  Verb mode for urls, etc.
+)
+LaTeX Info: Redefining \url on input line 5041.
+\XeTeXLinkMargin=\dimen135
+\Fld@menulength=\count119
+\Field@Width=\dimen136
+\Fld@charsize=\dimen137
+Package hyperref Info: Hyper figures OFF on input line 6295.
+Package hyperref Info: Link nesting OFF on input line 6300.
+Package hyperref Info: Hyper index ON on input line 6303.
+Package hyperref Info: backreferencing OFF on input line 6310.
+Package hyperref Info: Link coloring OFF on input line 6315.
+Package hyperref Info: Link coloring with OCG OFF on input line 6320.
+Package hyperref Info: PDF/A mode OFF on input line 6325.
+LaTeX Info: Redefining \ref on input line 6365.
+LaTeX Info: Redefining \pageref on input line 6369.
+\Hy@abspage=\count120
+\c@Item=\count121
+\c@Hfootnote=\count122
+)
+
+Package hyperref Message: Driver (autodetected): hpdftex.
+
+("C:\Program Files\MiKTeX 2.9\tex\latex\hyperref\hpdftex.def"
+File: hpdftex.def 2012/11/06 v6.83m Hyperref driver for pdfTeX
+\Fld@listcount=\count123
+\c@bookmark@seq@number=\count124
+
+("C:\Program Files\MiKTeX 2.9\tex\latex\oberdiek\rerunfilecheck.sty"
+Package: rerunfilecheck 2011/04/15 v1.7 Rerun checks for auxiliary files (HO)
+Package uniquecounter Info: New unique counter `rerunfilecheck' on input line 2
+82.
+)
+\Hy@SectionHShift=\skip53
+)
+("C:\Program Files\MiKTeX 2.9\tex\latex\booktabs\booktabs.sty"
+Package: booktabs 2005/04/14 v1.61803 publication quality tables
+\heavyrulewidth=\dimen138
+\lightrulewidth=\dimen139
+\cmidrulewidth=\dimen140
+\belowrulesep=\dimen141
+\belowbottomsep=\dimen142
+\aboverulesep=\dimen143
+\abovetopsep=\dimen144
+\cmidrulesep=\dimen145
+\cmidrulekern=\dimen146
+\defaultaddspace=\dimen147
+\@cmidla=\count125
+\@cmidlb=\count126
+\@aboverulesep=\dimen148
+\@belowrulesep=\dimen149
+\@thisruleclass=\count127
+\@lastruleclass=\count128
+\@thisrulewidth=\dimen150
+)
+("C:\Program Files\MiKTeX 2.9\tex\latex\blindtext\blindtext.sty"
+Package: blindtext 2012/01/06 V2.0 blindtext-Package
+
+("C:\Program Files\MiKTeX 2.9\tex\latex\tools\xspace.sty"
+Package: xspace 2009/10/20 v1.13 Space after command names (DPC,MH)
+)
+\c@blindtext=\count129
+\c@Blindtext=\count130
+\c@blind@countparstart=\count131
+\blind@countxx=\count132
+\blindtext@numBlindtext=\count133
+\blind@countyy=\count134
+\c@blindlist=\count135
+\c@blindlistlevel=\count136
+\c@blindlist@level=\count137
+\blind@listitem=\count138
+\c@blind@listcount=\count139
+\c@blind@levelcount=\count140
+\blind@mathformula=\count141
+\blind@Mathformula=\count142
+\c@blind@randomcount=\count143
+\c@blind@randommax=\count144
+\c@blind@pangramcount=\count145
+\c@blind@pangrammax=\count146
+)
+("C:\Program Files\MiKTeX 2.9\tex\latex\caption\caption.sty"
+Package: caption 2013/04/14 v3.3-73 Customizing captions (AR)
+
+("C:\Program Files\MiKTeX 2.9\tex\latex\caption\caption3.sty"
+Package: caption3 2013/04/14 v1.5-71 caption3 kernel (AR)
+\captionmargin=\dimen151
+\captionmargin@=\dimen152
+\captionwidth=\dimen153
+\caption@tempdima=\dimen154
+\caption@indent=\dimen155
+\caption@parindent=\dimen156
+\caption@hangindent=\dimen157
+)
+\c@ContinuedFloat=\count147
+Package caption Info: hyperref package is loaded.
+)
+("C:\Users\nico\Dropbox\uc\Sem 13-02\Psicoacustica\Portafolio\portafolio.aux")
+LaTeX Font Info:    Checking defaults for OML/cmm/m/it on input line 39.
+LaTeX Font Info:    ... okay on input line 39.
+LaTeX Font Info:    Checking defaults for T1/cmr/m/n on input line 39.
+LaTeX Font Info:    ... okay on input line 39.
+LaTeX Font Info:    Checking defaults for OT1/cmr/m/n on input line 39.
+LaTeX Font Info:    ... okay on input line 39.
+LaTeX Font Info:    Checking defaults for OMS/cmsy/m/n on input line 39.
+LaTeX Font Info:    ... okay on input line 39.
+LaTeX Font Info:    Checking defaults for OMX/cmex/m/n on input line 39.
+LaTeX Font Info:    ... okay on input line 39.
+LaTeX Font Info:    Checking defaults for U/cmr/m/n on input line 39.
+LaTeX Font Info:    ... okay on input line 39.
+LaTeX Font Info:    Checking defaults for PD1/pdf/m/n on input line 39.
+LaTeX Font Info:    ... okay on input line 39.
+
+*geometry* driver: auto-detecting
+*geometry* detected driver: pdftex
+*geometry* verbose mode - [ preamble ] result:
+* driver: pdftex
+* paper: letterpaper
+* layout: <same size as paper>
+* layoutoffset:(h,v)=(0.0pt,0.0pt)
+* modes: 
+* h-part:(L,W,R)=(42.67912pt, 528.93675pt, 42.67912pt)
+* v-part:(T,H,B)=(56.9055pt, 695.38536pt, 42.67912pt)
+* \paperwidth=614.295pt
+* \paperheight=794.96999pt
+* \textwidth=528.93675pt
+* \textheight=695.38536pt
+* \oddsidemargin=-29.59087pt
+* \evensidemargin=-29.59087pt
+* \topmargin=-52.36449pt
+* \headheight=12.0pt
+* \headsep=25.0pt
+* \topskip=10.0pt
+* \footskip=30.0pt
+* \marginparwidth=65.0pt
+* \marginparsep=11.0pt
+* \columnsep=10.0pt
+* \skip\footins=9.0pt plus 4.0pt minus 2.0pt
+* \hoffset=0.0pt
+* \voffset=0.0pt
+* \mag=1000
+* \@twocolumnfalse
+* \@twosidefalse
+* \@mparswitchfalse
+* \@reversemarginfalse
+* (1in=72.27pt=25.4mm, 1cm=28.453pt)
+
+("C:\Program Files\MiKTeX 2.9\tex\context\base\supp-pdf.mkii"
+[Loading MPS to PDF converter (version 2006.09.02).]
+\scratchcounter=\count148
+\scratchdimen=\dimen158
+\scratchbox=\box54
+\nofMPsegments=\count149
+\nofMParguments=\count150
+\everyMPshowfont=\toks31
+\MPscratchCnt=\count151
+\MPscratchDim=\dimen159
+\MPnumerator=\count152
+\makeMPintoPDFobject=\count153
+\everyMPtoPDFconversion=\toks32
+)
+\AtBeginShipoutBox=\box55
+Package hyperref Info: Link coloring OFF on input line 39.
+ ("C:\Program Files\MiKTeX 2.9\tex\latex\hyperref\nameref.sty"
+Package: nameref 2012/10/27 v2.43 Cross-referencing by name of section
+
+("C:\Program Files\MiKTeX 2.9\tex\generic\oberdiek\gettitlestring.sty"
+Package: gettitlestring 2010/12/03 v1.4 Cleanup title references (HO)
+)
+\c@section@level=\count154
+)
+LaTeX Info: Redefining \ref on input line 39.
+LaTeX Info: Redefining \pageref on input line 39.
+LaTeX Info: Redefining \nameref on input line 39.
+
+("C:\Users\nico\Dropbox\uc\Sem 13-02\Psicoacustica\Portafolio\portafolio.out")
+("C:\Users\nico\Dropbox\uc\Sem 13-02\Psicoacustica\Portafolio\portafolio.out")
+\@outlinefile=\write3
+Package caption Info: Begin \AtBeginDocument code.
+Package caption Info: End \AtBeginDocument code.
+
+<logo.jpg, id=55, 240.9pt x 321.2pt>
+File: logo.jpg Graphic file (type jpg)
+ <use logo.jpg>
+Package pdftex.def Info: logo.jpg used on input line 43.
+(pdftex.def)             Requested size: 60.22484pt x 80.2998pt.
+LaTeX Font Info:    Try loading font information for U+msa on input line 45.
+
+("C:\Program Files\MiKTeX 2.9\tex\latex\amsfonts\umsa.fd"
+File: umsa.fd 2013/01/14 v3.01 AMS symbols A
+)
+LaTeX Font Info:    Try loading font information for U+msb on input line 45.
+
+("C:\Program Files\MiKTeX 2.9\tex\latex\amsfonts\umsb.fd"
+File: umsb.fd 2013/01/14 v3.01 AMS symbols B
+)
+Underfull \hbox (badness 10000) in paragraph at lines 64--65
+
+ []
+
+
+Underfull \hbox (badness 10000) in paragraph at lines 84--85
+
+ []
+
+[1
+
+{C:/ProgramData/MiKTeX/2.9/pdftex/config/pdftex.map} <C:/Users/nico/Dropbox/uc/
+Sem 13-02/Psicoacustica/Portafolio/logo.jpg>]
+<C01_diapason.jpg, id=75, 276.03125pt x 374.39874pt>
+File: C01_diapason.jpg Graphic file (type jpg)
+ <use C01_diapason.jpg>
+Package pdftex.def Info: C01_diapason.jpg used on input line 98.
+(pdftex.def)             Requested size: 69.00763pt x 93.59946pt.
+LaTeX Font Info:    Try loading font information for OMS+cmr on input line 120.
+
+
+("C:\Program Files\MiKTeX 2.9\tex\latex\base\omscmr.fd"
+File: omscmr.fd 1999/05/25 v2.5h Standard LaTeX font definitions
+)
+LaTeX Font Info:    Font shape `OMS/cmr/m/n' in size <10> not available
+(Font)              Font shape `OMS/cmsy/m/n' tried instead on input line 120.
+
+Underfull \hbox (badness 10000) in paragraph at lines 128--129
+
+ []
+
+[2 <C:/Users/nico/Dropbox/uc/Sem 13-02/Psicoacustica/Portafolio/C01_diapason.jp
+g>] [3]
+
+Package caption Warning: \label without proper \caption on input line 150.
+See the caption package documentation for explanation.
+
+
+LaTeX Warning: Reference `C02_sist' on page 4 undefined on input line 145.
+
+
+Underfull \hbox (badness 10000) in paragraph at lines 145--146
+
+ []
+
+<C02_sistema.png, id=93, 331.99031pt x 243.91125pt>
+File: C02_sistema.png Graphic file (type png)
+ <use C02_sistema.png>
+Package pdftex.def Info: C02_sistema.png used on input line 149.
+(pdftex.def)             Requested size: 265.59259pt x 195.12926pt.
+
+
+Package caption Warning: \label without proper \caption on input line 160.
+See the caption package documentation for explanation.
+
+
+LaTeX Warning: Reference `C02_extFrec' on page 4 undefined on input line 155.
+
+<C02_frecExterno.png, id=96, 424.58624pt x 263.48438pt>
+File: C02_frecExterno.png Graphic file (type png)
+
+<use C02_frecExterno.png>
+Package pdftex.def Info: C02_frecExterno.png used on input line 159.
+(pdftex.def)             Requested size: 297.20834pt x 184.43779pt.
+
+Underfull \hbox (badness 10000) in paragraph at lines 165--166
+
+ []
+
+
+Package caption Warning: \label without proper \caption on input line 172.
+See the caption package documentation for explanation.
+
+
+LaTeX Warning: Reference `C02_huesos' on page 4 undefined on input line 167.
+
+[4 <C:/Users/nico/Dropbox/uc/Sem 13-02/Psicoacustica/Portafolio/C02_sistema.png
+>] <C02_oidoMedio.jpg, id=110, 712.6625pt x 376.40625pt>
+File: C02_oidoMedio.jpg Graphic file (type jpg)
+
+<use C02_oidoMedio.jpg>
+Package pdftex.def Info: C02_oidoMedio.jpg used on input line 171.
+(pdftex.def)             Requested size: 178.16519pt x 94.10132pt.
+
+Underfull \hbox (badness 10000) in paragraph at lines 177--178
+
+ []
+
+<C02_oidoInterno.png, id=113, 462.97969pt x 315.42844pt>
+File: C02_oidoInterno.png Graphic file (type png)
+
+<use C02_oidoInterno.png>
+Package pdftex.def Info: C02_oidoInterno.png used on input line 181.
+(pdftex.def)             Requested size: 324.08356pt x 220.79839pt.
+
+Underfull \hbox (badness 10000) in paragraph at lines 186--187
+
+ []
+
+<C02_membrana.png, id=116, 291.33844pt x 225.84375pt>
+File: C02_membrana.png Graphic file (type png)
+ <use C02_membrana.png>
+Package pdftex.def Info: C02_membrana.png used on input line 190.
+(pdftex.def)             Requested size: 145.66885pt x 112.92159pt.
+
+[5 <C:/Users/nico/Dropbox/uc/Sem 13-02/Psicoacustica/Portafolio/C02_frecExterno
+.png> <C:/Users/nico/Dropbox/uc/Sem 13-02/Psicoacustica/Portafolio/C02_oidoMedi
+o.jpg>] [6 <C:/Users/nico/Dropbox/uc/Sem 13-02/Psicoacustica/Portafolio/C02_oid
+oInterno.png> <C:/Users/nico/Dropbox/uc/Sem 13-02/Psicoacustica/Portafolio/C02_
+membrana.png>]
+Underfull \hbox (badness 10000) in paragraph at lines 206--207
+
+ []
+
+
+Underfull \hbox (badness 10000) in paragraph at lines 221--222
+
+ []
+
+
+Package caption Warning: \label without proper \caption on input line 250.
+See the caption package documentation for explanation.
+
+
+LaTeX Warning: Reference `C03-mediciones' on page 7 undefined on input line 230
+.
+
+
+Package caption Warning: \label without proper \caption on input line 235.
+See the caption package documentation for explanation.
+
+
+LaTeX Warning: Reference `C03_graf1' on page 7 undefined on input line 230.
+
+
+Underfull \hbox (badness 10000) in paragraph at lines 230--231
+
+ []
+
+<C03_graph01.png, id=136, 444.66125pt x 207.77625pt>
+File: C03_graph01.png Graphic file (type png)
+ <use C03_graph01.png>
+Package pdftex.def Info: C03_graph01.png used on input line 234.
+(pdftex.def)             Requested size: 244.56444pt x 114.27728pt.
+
+Underfull \hbox (badness 10000) in paragraph at lines 254--255
+
+ []
+
+[7]
+
+Package caption Warning: \label without proper \caption on input line 261.
+See the caption package documentation for explanation.
+
+
+LaTeX Warning: Reference `C03_graf2' on page 8 undefined on input line 256.
+
+
+Underfull \hbox (badness 10000) in paragraph at lines 256--257
+
+ []
+
+<C03_graph02.png, id=147, 444.66125pt x 206.7725pt>
+File: C03_graph02.png Graphic file (type png)
+ <use C03_graph02.png>
+Package pdftex.def Info: C03_graph02.png used on input line 260.
+(pdftex.def)             Requested size: 244.56444pt x 113.72522pt.
+
+
+Package caption Warning: \label without proper \caption on input line 270.
+See the caption package documentation for explanation.
+
+
+LaTeX Warning: Reference `C03_ROC' on page 8 undefined on input line 265.
+
+
+Underfull \hbox (badness 10000) in paragraph at lines 265--266
+
+ []
+
+<C03_ROC.png, id=149, 271.0125pt x 215.80624pt>
+File: C03_ROC.png Graphic file (type png)
+ <use C03_ROC.png>
+Package pdftex.def Info: C03_ROC.png used on input line 269.
+(pdftex.def)             Requested size: 176.15602pt x 140.27238pt.
+ [8 <C:/Users/nico/Dropbox/uc/Sem 13-02/Psicoacustica/Portafolio/C03_graph01.pn
+g> <C:/Users/nico/Dropbox/uc/Sem 13-02/Psicoacustica/Portafolio/C03_graph02.png
+>]
+Underfull \hbox (badness 10000) in paragraph at lines 279--280
+
+ []
+
+
+Underfull \hbox (badness 10000) in paragraph at lines 281--282
+
+ []
+
+
+Underfull \hbox (badness 10000) in paragraph at lines 283--284
+
+ []
+
+
+Underfull \hbox (badness 10000) in paragraph at lines 285--286
+
+ []
+
+
+Underfull \hbox (badness 10000) in paragraph at lines 290--291
+
+ []
+
+
+Underfull \hbox (badness 10000) in paragraph at lines 305--306
+
+ []
+
+[9 <C:/Users/nico/Dropbox/uc/Sem 13-02/Psicoacustica/Portafolio/C03_ROC.png>]
+<C04_bandacritica.png, id=170, 246.9225pt x 159.59625pt>
+File: C04_bandacritica.png Graphic file (type png)
+
+<use C04_bandacritica.png>
+Package pdftex.def Info: C04_bandacritica.png used on input line 309.
+(pdftex.def)             Requested size: 209.88509pt x 135.65742pt.
+ <C04_bandas.jpg, id=171, 388.45125pt x 149.05687pt>
+File: C04_bandas.jpg Graphic file (type jpg)
+
+<use C04_bandas.jpg>
+Package pdftex.def Info: C04_bandas.jpg used on input line 316.
+(pdftex.def)             Requested size: 330.1851pt x 126.69893pt.
+
+Underfull \hbox (badness 10000) in paragraph at lines 321--322
+
+ []
+
+<C04_bandacritica2.png, id=173, 348.30125pt x 176.66pt>
+File: C04_bandacritica2.png Graphic file (type png)
+
+<use C04_bandacritica2.png>
+Package pdftex.def Info: C04_bandacritica2.png used on input line 325.
+(pdftex.def)             Requested size: 296.05746pt x 150.1617pt.
+
+
+LaTeX Warning: `!h' float specifier changed to `!ht'.
+
+
+Underfull \hbox (badness 10000) in paragraph at lines 330--331
+
+ []
+
+[10 <C:/Users/nico/Dropbox/uc/Sem 13-02/Psicoacustica/Portafolio/C04_bandacriti
+ca.png> <C:/Users/nico/Dropbox/uc/Sem 13-02/Psicoacustica/Portafolio/C04_bandas
+.jpg>]
+Underfull \hbox (badness 10000) in paragraph at lines 332--333
+
+ []
+
+
+Underfull \hbox (badness 10000) in paragraph at lines 334--335
+
+ []
+
+<C04_ajustebanda.png, id=188, 803.0pt x 266.9975pt>
+File: C04_ajustebanda.png Graphic file (type png)
+ <use C04_ajustebanda.png>
+Package pdftex.def Info: C04_ajustebanda.png used on input line 340.
+(pdftex.def)             Requested size: 502.4883pt x 167.08078pt.
+
+[11 <C:/Users/nico/Dropbox/uc/Sem 13-02/Psicoacustica/Portafolio/C04_bandacriti
+ca2.png>]
+Underfull \hbox (badness 10000) in paragraph at lines 347--348
+
+ []
+
+<C05_diag.png, id=198, 730.73pt x 240.9pt>
+File: C05_diag.png Graphic file (type png)
+ <use C05_diag.png>
+Package pdftex.def Info: C05_diag.png used on input line 351.
+(pdftex.def)             Requested size: 292.28682pt x 96.35828pt.
+ [12 <C:/Users/nico/Dropbox/uc/Sem 13-02/Psicoacustica/Portafolio/C04_ajusteban
+da.png> <C:/Users/nico/Dropbox/uc/Sem 13-02/Psicoacustica/Portafolio/C05_diag.p
+ng>]
+<C05_sirena.jpg, id=211, 200.75pt x 224.84pt>
+File: C05_sirena.jpg Graphic file (type jpg)
+ <use C05_sirena.jpg>
+Package pdftex.def Info: C05_sirena.jpg used on input line 371.
+(pdftex.def)             Requested size: 100.37474pt x 112.41972pt.
+
+Underfull \hbox (badness 10000) in paragraph at lines 384--384
+[]|\OT1/cmr/m/n/10 Frecuencia
+ []
+
+
+Overfull \hbox (8.7139pt too wide) in paragraph at lines 387--387
+[]|\OT1/cmr/m/n/10 Fundamental| 
+ []
+
+
+Underfull \hbox (badness 10000) in paragraph at lines 394--395
+
+ []
+
+[13 <C:/Users/nico/Dropbox/uc/Sem 13-02/Psicoacustica/Portafolio/C05_sirena.jpg
+>] <C05_aural1.png, id=225, 279.0425pt x 128.48pt>
+File: C05_aural1.png Graphic file (type png)
+ <use C05_aural1.png>
+Package pdftex.def Info: C05_aural1.png used on input line 400.
+(pdftex.def)             Requested size: 153.47385pt x 70.6642pt.
+
+<C05_aural2.png, id=226, 290.08376pt x 128.48pt>
+File: C05_aural2.png Graphic file (type png)
+ <use C05_aural2.png>
+Package pdftex.def Info: C05_aural2.png used on input line 407.
+(pdftex.def)             Requested size: 159.54655pt x 70.6642pt.
+
+Underfull \hbox (badness 10000) in paragraph at lines 412--414
+
+ []
+
+<C05_pitch.jpg, id=230, 111.7776pt x 188.8656pt>
+File: C05_pitch.jpg Graphic file (type jpg)
+ <use C05_pitch.jpg>
+Package pdftex.def Info: C05_pitch.jpg used on input line 422.
+(pdftex.def)             Requested size: 78.24377pt x 132.205pt.
+ [14 <C:/Users/nico/Dropbox/uc/Sem 13-02/Psicoacustica/Portafolio/C05_aural1.pn
+g> <C:/Users/nico/Dropbox/uc/Sem 13-02/Psicoacustica/Portafolio/C05_aural2.png>
+]
+<C05_shepard.jpg, id=247, 403.5075pt x 271.0125pt>
+File: C05_shepard.jpg Graphic file (type jpg)
+ <use C05_shepard.jpg>
+Package pdftex.def Info: C05_shepard.jpg used on input line 431.
+(pdftex.def)             Requested size: 181.57669pt x 121.95448pt.
+
+[15 <C:/Users/nico/Dropbox/uc/Sem 13-02/Psicoacustica/Portafolio/C05_pitch.jpg>
+ <C:/Users/nico/Dropbox/uc/Sem 13-02/Psicoacustica/Portafolio/C05_shepard.jpg>]
+
+Underfull \hbox (badness 10000) in paragraph at lines 459--460
+
+ []
+
+<C06_equal_loudness.png, id=258, 401.5pt x 314.17375pt>
+File: C06_equal_loudness.png Graphic file (type png)
+
+<use C06_equal_loudness.png>
+Package pdftex.def Info: C06_equal_loudness.png used on input line 469.
+(pdftex.def)             Requested size: 240.90184pt x 188.50569pt.
+
+Underfull \hbox (badness 10000) in paragraph at lines 478--479
+
+ []
+
+[16 <C:/Users/nico/Dropbox/uc/Sem 13-02/Psicoacustica/Portafolio/C06_equal_loud
+ness.png>] [17]
+Underfull \hbox (badness 10000) in paragraph at lines 492--493
+
+ []
+
+<C07_axis.png, id=277, 647.41875pt x 414.04688pt>
+File: C07_axis.png Graphic file (type png)
+ <use C07_axis.png>
+Package pdftex.def Info: C07_axis.png used on input line 496.
+(pdftex.def)             Requested size: 291.33574pt x 186.31937pt.
+
+Underfull \hbox (badness 10000) in paragraph at lines 501--502
+
+ []
+
+<C07_planes.png, id=280, 575.90157pt x 422.32782pt>
+File: C07_planes.png Graphic file (type png)
+ <use C07_planes.png>
+Package pdftex.def Info: C07_planes.png used on input line 507.
+(pdftex.def)             Requested size: 259.1533pt x 190.04576pt.
+
+<C07_teoriaLoc.jpg, id=287, 722.7pt x 542.025pt>
+File: C07_teoriaLoc.jpg Graphic file (type jpg)
+ <use C07_teoriaLoc.jpg>
+Package pdftex.def Info: C07_teoriaLoc.jpg used on input line 517.
+(pdftex.def)             Requested size: 252.94878pt x 189.71158pt.
+
+<C07_itd.jpg, id=288, 662.475pt x 443.6575pt>
+File: C07_itd.jpg Graphic file (type jpg)
+ <use C07_itd.jpg>
+Package pdftex.def Info: C07_itd.jpg used on input line 524.
+(pdftex.def)             Requested size: 264.9853pt x 177.45984pt.
+
+Underfull \hbox (badness 10000) in paragraph at lines 529--530
+
+ []
+
+
+Underfull \hbox (badness 10000) in paragraph at lines 531--532
+
+ []
+
+[18 <C:/Users/nico/Dropbox/uc/Sem 13-02/Psicoacustica/Portafolio/C07_axis.png>]
+<C07_jeffress.png, id=305, 353.1594pt x 289.08pt>
+File: C07_jeffress.png Graphic file (type png)
+ <use C07_jeffress.png>
+Package pdftex.def Info: C07_jeffress.png used on input line 535.
+(pdftex.def)             Requested size: 264.86888pt x 216.80946pt.
+
+Underfull \hbox (badness 10000) in paragraph at lines 543--544
+
+ []
+
+[19 <C:/Users/nico/Dropbox/uc/Sem 13-02/Psicoacustica/Portafolio/C07_planes.png
+> <C:/Users/nico/Dropbox/uc/Sem 13-02/Psicoacustica/Portafolio/C07_teoriaLoc.jp
+g>] <C07_HRTF.png, id=318, 321.2pt x 269.005pt>
+File: C07_HRTF.png Graphic file (type png)
+ <use C07_HRTF.png>
+Package pdftex.def Info: C07_HRTF.png used on input line 547.
+(pdftex.def)             Requested size: 192.72148pt x 161.40424pt.
+ [20 <C:/Users/nico/Dropbox/uc/Sem 13-02/Psicoacustica/Portafolio/C07_itd.jpg> 
+<C:/Users/nico/Dropbox/uc/Sem 13-02/Psicoacustica/Portafolio/C07_jeffress.png>]
+
+Underfull \hbox (badness 10000) in paragraph at lines 559--560
+
+ []
+
+[21 <C:/Users/nico/Dropbox/uc/Sem 13-02/Psicoacustica/Portafolio/C07_HRTF.png>]
+
+Underfull \hbox (badness 10000) in paragraph at lines 568--569
+
+ []
+
+<C08_Grey.png, id=336, 319.1925pt x 213.79875pt>
+File: C08_Grey.png Graphic file (type png)
+ <use C08_Grey.png>
+Package pdftex.def Info: C08_Grey.png used on input line 575.
+(pdftex.def)             Requested size: 239.39378pt x 160.34866pt.
+
+<C08_McAdams.png, id=337, 357.58594pt x 214.55156pt>
+File: C08_McAdams.png Graphic file (type png)
+ <use C08_McAdams.png>
+Package pdftex.def Info: C08_McAdams.png used on input line 582.
+(pdftex.def)             Requested size: 268.18878pt x 160.91327pt.
+
+Underfull \hbox (badness 10000) in paragraph at lines 587--588
+
+ []
+
+[22 <C:/Users/nico/Dropbox/uc/Sem 13-02/Psicoacustica/Portafolio/C08_Grey.png> 
+<C:/Users/nico/Dropbox/uc/Sem 13-02/Psicoacustica/Portafolio/C08_McAdams.png>]
+<C08_VAME.png, id=348, 179.92218pt x 167.12437pt>
+File: C08_VAME.png Graphic file (type png)
+ <use C08_VAME.png>
+Package pdftex.def Info: C08_VAME.png used on input line 607.
+(pdftex.def)             Requested size: 161.92845pt x 150.41052pt.
+
+<C08_variacionTiempo.png, id=351, 383.18156pt x 310.91156pt>
+File: C08_variacionTiempo.png Graphic file (type png)
+
+<use C08_variacionTiempo.png>
+Package pdftex.def Info: C08_variacionTiempo.png used on input line 616.
+(pdftex.def)             Requested size: 210.7505pt x 171.00188pt.
+
+Underfull \hbox (badness 10000) in paragraph at lines 621--622
+
+ []
+
+[23 <C:/Users/nico/Dropbox/uc/Sem 13-02/Psicoacustica/Portafolio/C08_VAME.png> 
+<C:/Users/nico/Dropbox/uc/Sem 13-02/Psicoacustica/Portafolio/C08_variacionTiemp
+o.png>] [24]
+Underfull \hbox (badness 10000) in paragraph at lines 628--629
+
+ []
+
+
+Underfull \hbox (badness 10000) in paragraph at lines 637--638
+
+ []
+
+
+Underfull \hbox (badness 10000) in paragraph at lines 639--640
+
+ []
+
+
+Underfull \hbox (badness 10000) in paragraph at lines 641--642
+
+ []
+
+[25] [26]
+Underfull \hbox (badness 10000) in paragraph at lines 668--669
+
+ []
+
+
+Underfull \hbox (badness 10000) in paragraph at lines 670--671
+
+ []
+
+<C10_Vowels.png, id=379, 448.67625pt x 422.32782pt>
+File: C10_Vowels.png Graphic file (type png)
+ <use C10_Vowels.png>
+Package pdftex.def Info: C10_Vowels.png used on input line 674.
+(pdftex.def)             Requested size: 224.33757pt x 211.16339pt.
+
+<C10_Consonant.png, id=380, 761.09344pt x 286.82156pt>
+File: C10_Consonant.png Graphic file (type png)
+ <use C10_Consonant.png>
+Package pdftex.def Info: C10_Consonant.png used on input line 681.
+(pdftex.def)             Requested size: 502.4883pt x 189.36845pt.
+
+Underfull \hbox (badness 10000) in paragraph at lines 686--687
+
+ []
+
+
+Underfull \hbox (badness 10000) in paragraph at lines 688--689
+
+ []
+
+<C10_Vowels2.png, id=385, 328.22626pt x 289.08pt>
+File: C10_Vowels2.png Graphic file (type png)
+ <use C10_Vowels2.png>
+Package pdftex.def Info: C10_Vowels2.png used on input line 693.
+(pdftex.def)             Requested size: 229.7568pt x 202.35461pt.
+
+<C10_transition.png, id=386, 359.84438pt x 228.855pt>
+File: C10_transition.png Graphic file (type png)
+ <use C10_transition.png>
+Package pdftex.def Info: C10_transition.png used on input line 700.
+(pdftex.def)             Requested size: 233.89607pt x 148.75398pt.
+
+[27 <C:/Users/nico/Dropbox/uc/Sem 13-02/Psicoacustica/Portafolio/C10_Vowels.png
+>] <C10_sing.png, id=401, 261.22594pt x 134.00063pt>
+File: C10_sing.png Graphic file (type png)
+ <use C10_sing.png>
+Package pdftex.def Info: C10_sing.png used on input line 709.
+(pdftex.def)             Requested size: 235.10115pt x 120.59943pt.
+
+[28 <C:/Users/nico/Dropbox/uc/Sem 13-02/Psicoacustica/Portafolio/C10_Consonant.
+png> <C:/Users/nico/Dropbox/uc/Sem 13-02/Psicoacustica/Portafolio/C10_Vowels2.p
+ng>] [29 <C:/Users/nico/Dropbox/uc/Sem 13-02/Psicoacustica/Portafolio/C10_trans
+ition.png> <C:/Users/nico/Dropbox/uc/Sem 13-02/Psicoacustica/Portafolio/C10_sin
+g.png>]
+Underfull \hbox (badness 10000) in paragraph at lines 731--732
+
+ []
+
+
+Underfull \hbox (badness 10000) in paragraph at lines 733--734
+
+ []
+
+[30] [31]
+Underfull \hbox (badness 10000) in paragraph at lines 750--751
+
+ []
+
+
+Underfull \hbox (badness 10000) in paragraph at lines 752--753
+
+ []
+
+
+Underfull \hbox (badness 10000) in paragraph at lines 754--755
+
+ []
+
+Package atveryend Info: Empty hook `BeforeClearDocument' on input line 760.
+[32]
+Package atveryend Info: Empty hook `AfterLastShipout' on input line 760.
+
+("C:\Users\nico\Dropbox\uc\Sem 13-02\Psicoacustica\Portafolio\portafolio.aux")
+Package atveryend Info: Executing hook `AtVeryEndDocument' on input line 760.
+Package atveryend Info: Executing hook `AtEndAfterFileList' on input line 760.
+Package rerunfilecheck Info: File `portafolio.out' has not changed.
+(rerunfilecheck)             Checksum: 9ABECC2F1B93D9ECC54E97A956CBFFDC;795.
+
+
+LaTeX Warning: There were undefined references.
+
+Package atveryend Info: Empty hook `AtVeryVeryEnd' on input line 760.
+ ) 
+Here is how much of TeX's memory you used:
+ 9181 strings out of 493921
+ 134218 string characters out of 3147285
+ 251409 words of memory out of 3000000
+ 12175 multiletter control sequences out of 15000+200000
+ 11077 words of font info for 43 fonts, out of 3000000 for 9000
+ 841 hyphenation exceptions out of 8191
+ 36i,12n,38p,1748b,474s stack positions out of 5000i,500n,10000p,200000b,50000s
+<C:/Program Files/MiKTeX 2.9/fonts/type1/public/amsfonts/cm/cmbx10.pfb><C:/Pr
+ogram Files/MiKTeX 2.9/fonts/type1/public/amsfonts/cm/cmbx12.pfb><C:/Program Fi
+les/MiKTeX 2.9/fonts/type1/public/amsfonts/cm/cmmi10.pfb><C:/Program Files/MiKT
+eX 2.9/fonts/type1/public/amsfonts/cm/cmmi7.pfb><C:/Program Files/MiKTeX 2.9/fo
+nts/type1/public/amsfonts/cm/cmr10.pfb><C:/Program Files/MiKTeX 2.9/fonts/type1
+/public/amsfonts/cm/cmr12.pfb><C:/Program Files/MiKTeX 2.9/fonts/type1/public/a
+msfonts/cm/cmr6.pfb><C:/Program Files/MiKTeX 2.9/fonts/type1/public/amsfonts/cm
+/cmr7.pfb><C:/Program Files/MiKTeX 2.9/fonts/type1/public/amsfonts/cm/cmr8.pfb>
+<C:/Program Files/MiKTeX 2.9/fonts/type1/public/amsfonts/cm/cmsy10.pfb><C:/Prog
+ram Files/MiKTeX 2.9/fonts/type1/public/amsfonts/cm/cmsy7.pfb><C:/Program Files
+/MiKTeX 2.9/fonts/type1/public/amsfonts/cm/cmti10.pfb><C:/Program Files/MiKTeX 
+2.9/fonts/type1/public/amsfonts/cm/cmtt8.pfb>
+Output written on portafolio.pdf (32 pages, 2395054 bytes).
+PDF statistics:
+ 506 PDF objects out of 1000 (max. 8388607)
+ 146 named destinations out of 1000 (max. 500000)
+ 285 words of extra memory for PDF output out of 10000 (max. 10000000)
+

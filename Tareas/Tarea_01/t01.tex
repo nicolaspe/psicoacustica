@@ -1,0 +1,95 @@
+\documentclass[10pt, letterpaper]{article}
+
+%% Packages %%
+\usepackage[left=2cm,top=3cm,right=2cm,bottom=2cm]{geometry}
+\usepackage{graphicx}
+\usepackage[spanish]{babel}
+\usepackage[latin1]{inputenc}
+\usepackage{amsmath, amsfonts, amssymb, amsthm}
+\usepackage{array, xcolor}
+\usepackage{chngcntr}
+\usepackage{multicol}
+\usepackage{hyperref}
+
+
+%% Document format %%
+\linespread{1.0}
+\setlength{\parindent}{20pt}
+\parskip 11.0pt
+
+%% Comandos %%
+\definecolor{lightgray}{gray}{0.8}
+\newcommand\VRule{\color{lightgray}\vrule width 0.5pt}
+
+%% Otros %%
+%\counterwithin{equation}{section}
+%\counterwithin{figure}{section}
+%\counterwithin{table}{section}
+
+\title{?}
+\author{?}
+\date{} 
+
+\begin{document}
+
+\begin{minipage}[c][2cm][t]{0.2\textwidth}
+\begin{center}
+	\includegraphics[scale=0.25]{logo.jpg}
+\end{center}
+\end{minipage}
+\begin{minipage}[c][1.5cm][t]{0.7\textwidth} \bigskip
+{Pontificia Universidad Católica de Chile}\\
+{Facultad de Artes}\\
+{Instituto de Música}\\
+{MUC863 Psicoacústica}
+\end{minipage}
+\vspace{1.5cm}
+\begin{center}
+{\LARGE \textbf{Tarea \#1}}\\
+\rule{\linewidth}{0.2mm} \\
+{\large {Nicolás A. Peña Escarpentier}}\\
+\end{center}
+\vspace{0.3cm}
+
+\section*{Problema 1}
+El primer ejercicio consistió en hacer la curva que representa el umbral de mínima audición. Es resultado se puede observar en el gráfico siguiente:
+
+\begin{figure}[h!] \begin{center}
+	\includegraphics[width = 0.8\textwidth]{ej01.png}
+	\label{ej1}
+	\caption{Umbral de mínima audición}
+\end{center} \end{figure}
+
+Hay varias cosas que se pueden apreciar en este ejercicio. En primer lugar, se comprueba que hay frecuencias que se escuchan con mayor facilidad que otras, lo que concuerda con lo visto anteriormente al explorar el sistema auditivo. En segundo lugar, es posible darse cuenta que (al menos en mi caso) es más fácil capturar sonidos más bajos que agudos (tomando una referencia central en la frecuencia de 1 kHz). Sin embargo, a pesar de que esto se condice con la lógica, no me queda tan claro puesto que es posible que los audífonos no hayan sido capaces de entregar sonido alguno a niveles menores. Lamentablemente, no tengo audífonos de mayor calidad, por lo que no he podido comprobar este punto.
+
+Por otra parte, me quedaron varias impresiones de este ejercicio. El umbral de audición logrado no posee una referencia absoluta, sino que depende directamente del nivel en que se encontraba la salida de audio de mi computador e incluso de mis audífonos. Alguien con el volumen del computador más bajo, obtendrá una curva bastante más arriba. Además, me da para pensar si el efecto logarítmico de la función de decibeles tiene algún efecto en la forma de la curva. Según yo debiera tenerlo, puesto que una diferencia de un cuadro más arriba o un cuadro más abajo es distinta según el lugar en donde te encuentres. Volviendo al tema de la calidad de los audífonos, es importante contar con equipamiento adecuado para realizar estos experimentos y no dudar de la veracidad de estos.
+
+
+\section*{Problema 2}
+Este ejercicio consistió en generar la curva de igual intensidad, partiendo como base de una frecuencia de 1kHz a una referencia de 48 dB. El resultado se puede ver a continuación:
+
+\begin{figure}[h!] \begin{center}
+	\includegraphics[width = 0.8\textwidth]{ej02.png}
+	\label{ej2}
+	\caption{Curva de igual intensidad para 1kHz a 48 dB}
+\end{center} \end{figure}
+
+Nuevamente es posible notar que hay frecuencias que se escuchan con mayor intensidad aparente que otras, a pesar de estar al mismo volumen. En este caso no cabe duda que las frecuencias de 2 kHz a 8 kHz poseen cierta predilección por parte del oído. También hay una pequeña variación en los 500 Hz, pero no sé bien a qué atribuirla.
+
+Con respecto a mis impresiones con el ejercicio, puedo decir que a medida que me iba alejando de la referencia de 1kHz, era cada vez más difícil saber si estaba escuchando el sonido a la misma intensidad o no. Esto es por que el sonido se empieza a distorsionar, siendo un pitido en frecuencias muy altas y una vibración que resuena en toda la cabeza a frecuencias muy bajas. Entonces mi pregunta es: ¿Cómo comparar la intensidad de ambos sonidos? El efecto que producen es muy distinto como para poder medir y comparar la intensidad de cada uno de los sonidos. A una frecuencia de 30 Hz, se podria decir que no se escucha nada casi, si no que se siente una vibración en la cabeza. Debido a esto, no solo comparé la intensidad con la referencia de 1kHz, si no que también fui comparando cada frecuencia con sus vecinas y a la vez con la referencia, para poder tener mayor precisión a la hora de decidir si era la misma intensidad o no.
+
+
+\section*{Problema 3}
+En este caso, se nos pidió repetir el ejercicio anterior, pero fijando la referencia de 1kHz a 36 dB. El resultado se puede ver a continuación:
+\begin{figure}[h!] \begin{center}
+	\includegraphics[width = 0.8\textwidth]{ej03.png}
+	\label{ej3}
+	\caption{Curva de igual intensidad para 1kHz a 36 dB}
+\end{center} \end{figure}
+
+Se repite el patrón encontrado en el ejercicio anterior, aunque con la zona de predilección en los agudos menos pronunciada. También se ve la misma variación en los 500Hz, pero esta vez acompañado también por los 375Hz.
+
+Tanto en este, como en el ejercicio anterior, hubo problemas con los audífonos para escuchar las frecuencias extremas. Debido a esto no estoy seguro si se puede confiar en los resultados, puesto que la calidad y respuesta de los aparatos utilizados no es la mejor. A pesar de esto, los resultados calzan bastante bien, y se encuentran dentro de lo que me esperaba para este ejercicio. La diferencia en las distancias obtenidas del nivel de referencia se pueden explicar por el aumento de la intensidad del sonido de referencia. Al aumentar la referencia, el oído no es capaz de detectar diferencias tan sutiles como en casos anteriores, por lo cual se conforma con una menor diferencia aparente. 
+
+
+\end{document}
